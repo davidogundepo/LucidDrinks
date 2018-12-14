@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Can_Maltina">
+        <item android:id="@+id/five_can_maltina" android:title="750 NAIRA C. MALTINA(5)"/>
+        <item android:id="@+id/six_can_maltina" android:title="900 NAIRA C. MALTINA(6)"/>
+        <item android:id="@+id/seven_can_maltina" android:title="1050 NAIRA C. MALTINA(7)"/>
+        <item android:id="@+id/eight_can_maltina" android:title="1200 NAIRA C. MALTINA(8)"/>
+        <item android:id="@+id/nine_can_maltina" android:title="1350 NAIRA C. MALTINA(9)"/>
+        <item android:id="@+id/ten_can_maltina" android:title="1500 NAIRA C. MALTINA(10)"/>
+        <item android:id="@+id/eleven_can_maltina" android:title="1650 NAIRA C. MALTINA(11)"/>
+        <item android:id="@+id/twelve_can_maltina" android:title="1800 NAIRA C. MALTINA(12)"/>
+        <item android:id="@+id/thirteen_can_maltina" android:title="1950 NAIRA C. MALTINA(13)"/>
+        <item android:id="@+id/fourteen_can_maltina" android:title="2100 NAIRA C. MALTINA(14)"/>
+        <item android:id="@+id/fifteen_can_maltina" android:title="2250 NAIRA C. MALTINA(15)"/>
+        <item android:id="@+id/sixteen_can_maltina" android:title="2400 NAIRA C. MALTINA(16)"/>
+        <item android:id="@+id/seventeen_can_maltina" android:title="2550 NAIRA C. MALTINA(17)"/>
+        <item android:id="@+id/eighteen_can_maltina" android:title="2700 NAIRA C. MALTINA(18)"/>
+        <item android:id="@+id/nineteen_can_maltina" android:title="2850 NAIRA C. MALTINA(19)"/>
+        <item android:id="@+id/twenty_can_maltina" android:title="3000 NAIRA C. MALTINA(20)"/>
+    </group>
+
+</menu>

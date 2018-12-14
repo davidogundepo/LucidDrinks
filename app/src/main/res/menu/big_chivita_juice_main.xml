@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Big_Chivita_Juice">
+        <item android:id="@+id/five_big_chivita_juice" android:title="2500 NAIRA BIG CHIVITA JUICE(5)"/>
+        <item android:id="@+id/six_big_chivita_juice" android:title="3000 NAIRA BIG CHIVITA JUICE(6)"/>
+        <item android:id="@+id/seven_big_chivita_juice" android:title="3500 NAIRA BIG CHIVITA JUICE(7)"/>
+        <item android:id="@+id/eight_big_chivita_juice" android:title="4000 NAIRA BIG CHIVITA JUICE(8)"/>
+        <item android:id="@+id/nine_big_chivita_juice" android:title="4500 NAIRA BIG CHIVITA JUICE(9)"/>
+        <item android:id="@+id/ten_big_chivita_juice" android:title="5000 NAIRA BIG CHIVITA JUICE(10)"/>
+        <item android:id="@+id/eleven_big_chivita_juice" android:title="5500 NAIRA BIG CHIVITA JUICE(11)"/>
+        <item android:id="@+id/twelve_big_chivita_juice" android:title="6000 NAIRA BIG CHIVITA JUICE(12)"/>
+        <item android:id="@+id/thirteen_big_chivita_juice" android:title="6500 NAIRA BIG CHIVITA JUICE(13)"/>
+        <item android:id="@+id/fourteen_big_chivita_juice" android:title="7000 NAIRA BIG CHIVITA JUICE(14)"/>
+        <item android:id="@+id/fifteen_big_chivita_juice" android:title="7500 NAIRA BIG CHIVITA JUICE(15)"/>
+        <item android:id="@+id/sixteen_big_chivita_juice" android:title="8000 NAIRA BIG CHIVITA JUICE(16)"/>
+        <item android:id="@+id/seventeen_big_chivita_juice" android:title="8500 NAIRA BIG CHIVITA JUICE(17)"/>
+        <item android:id="@+id/eighteen_big_chivita_juice" android:title="9000 NAIRA BIG CHIVITA JUICE(18)"/>
+        <item android:id="@+id/nineteen_big_chivita_juice" android:title="9500 NAIRA BIG CHIVITA JUICE(19)"/>
+        <item android:id="@+id/twenty_big_chivita_juice" android:title="10000 NAIRA BIG CHIVITA JUICE(20)"/>
+    </group>
+
+</menu>

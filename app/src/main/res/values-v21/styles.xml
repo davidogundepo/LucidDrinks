@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorNursery</item>
+        <item name="colorPrimaryDark">@color/colorNurseryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+    </style>
+
+
+    <!-- Below For The Activities -->
+
+    <style name="Vendor_LoginActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorUniversity</item>
+        <item name="android:colorPrimaryDark">@color/colorUniversityDark</item>
+        <item name="colorAccent">@color/colorEcCent</item>
+        <item name="android:textColor">@color/VendorLoginName.BackgroundOne</item>
+        <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+        <item name="android:textColorPrimary">@color/colorUniversityTwo</item>
+        <item name="android:textColorSecondary">@color/VendorLoginToolbarIconColor</item>
+        <item name="android:actionOverflowButtonStyle">@style/Vendor_LoginActivity.Overflow</item>
+        <!--<item name="android:textColorSecondaryforlinedividercolorofdialog"></item>-->
+
+
+        <!--<item name="actionBarItemBackground">@drawable/vendor_alertdialog_backgound</item>-->
+        <!--<item name="android:listDividerAlertDialog">@drawable/vendorlogin_alertdialog_backgound</item>-->
+        <!--<item name="android:dialogTheme">@drawable/login_alertdialog_backgound</item>-->
+        <!--<item name="android:dialogLayout">@drawable/drinkactivity_alertdialog_backgound</item>-->
+        <!--<item name="android:dialogPreferenceStyle">@drawable/servingactivity_alertdialog_backgound</item>-->
+        <!--<item name="android:alertDialogStyle">@drawable/sa_pack_plate_background_style</item>-->
+        <!--<item name="android:alertDialogTheme">@drawable/saveplate_colorstyle</item>-->
+
+    </style>
+
+    <style name="Vendor_LoginActivity.Overflow">
+        <item name="android:src">@drawable/a_vendorlogin_activity_overflowmenu_btn</item>
+    </style>
+
+    <style name="VendorActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorSecondary</item>
+        <item name="android:colorPrimaryDark">@color/colorSecondaryDark</item>
+        <item name="colorAccent">@color/colorCcCentTwo</item>
+        <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+        <item name="android:textColor">@color/colorCcCentThree</item>
+        <item name="android:textColorPrimary">@color/colorCcCent</item>
+        <item name="android:textColorSecondary">@color/VendorDynamicPlateCheckboxColor</item>
+        <item name="android:background">@drawable/vendor_alertdialog_backgound</item>
+        <item name="android:actionOverflowButtonStyle">@style/VendorActivity.Overflow</item>
+    </style>
+
+    <style name="VendorActivity.Overflow">
+        <item name="android:src">@drawable/a_vendor_activity_overflowmenu_btn</item>
+    </style>
+
+    <style name="LoginActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorUniversity</item>
+        <item name="android:colorPrimaryDark">@color/colorUniversityDark</item>
+        <item name="colorAccent">@color/colorEcCent</item>
+        <item name="android:textColor">@color/colorUniversity</item>
+        <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+        <item name="android:textColorPrimary">@color/colorEcCent</item>
+        <!--<item name="android:background">@drawable/login_alertdialog_backgound</item>-->
+    </style>
+
+    <style name="DrinksmenuActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorNursery</item>
+        <item name="colorPrimaryDark">@color/colorNurseryDark</item>
+        <item name="colorAccent">@color/colorDcCent</item>
+        <item name="android:navigationBarColor">@color/EachActivityNavigationBar</item>
+        <item name="android:textColorSecondary">@color/EachToolbarIconColor</item>
+        <item name="android:textColor">@color/FoodBarTextColor</item>
+        <item name="android:textColorPrimary">@color/TextColor</item>
+        <item name="android:background">@drawable/drinkactivity_alertdialog_backgound</item>
+        <item name="android:actionOverflowButtonStyle">@style/DrinksmenuActivity.Overflow</item>
+    </style>
+
+    <style name="DrinksmenuActivity.Overflow">
+        <item name="android:src">@drawable/a_drinksmenu_activity_overflowmenu_btn</item>
+    </style>
+
+    <style name="ServingActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/ColorText</item>
+        <item name="android:textColorPrimary">@color/TextColorr</item>
+    </style>
+
+    <style name="Checkbox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ConfirmDialogueCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#26A69A</item>
+        <item name="colorControlActivated">#2196F3</item>
+    </style>
+
+    <style name="VendorActivityCheckBox"  parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#009688</item>
+        <item name="colorControlActivated">#303F9F</item>
+    </style>
+
+    <style name="VendorLoginActivityOptionMenu"  parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#009688</item>
+        <item name="colorControlActivated">#303F9F</item>
+        <item name="android:background">@drawable/login_alertdialog_backgound</item>
+    </style>
+
+    <style name="DrinksmenuActivityLucidAppMainFont.">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lucid_text_size</item>
+    </style>
+</resources>

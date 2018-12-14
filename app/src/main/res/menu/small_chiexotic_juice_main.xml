@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Small_ChiExotic_Juice">
+        <item android:id="@+id/five_small_chiexotic_juice" android:title="1500 NAIRA SMALL CHIEXOTIC JUICE(5)"/>
+        <item android:id="@+id/six_small_chiexotic_juice" android:title="1800 NAIRA SMALL CHIEXOTIC JUICE(6)"/>
+        <item android:id="@+id/seven_small_chiexotic_juice" android:title="2100 NAIRA SMALL CHIEXOTIC JUICE(7)"/>
+        <item android:id="@+id/eight_small_chiexotic_juice" android:title="2400 NAIRA SMALL CHIEXOTIC JUICE(8)"/>
+        <item android:id="@+id/nine_small_chiexotic_juice" android:title="2700 NAIRA SMALL CHIEXOTIC JUICE(9)"/>
+        <item android:id="@+id/ten_small_chiexotic_juice" android:title="3000 NAIRA SMALL CHIEXOTIC JUICE(10)"/>
+        <item android:id="@+id/eleven_small_chiexotic_juice" android:title="3300 NAIRA SMALL CHIEXOTIC JUICE(11)"/>
+        <item android:id="@+id/twelve_small_chiexotic_juice" android:title="3600 NAIRA SMALL CHIEXOTIC JUICE(12)"/>
+        <item android:id="@+id/thirteen_small_chiexotic_juice" android:title="3900 NAIRA SMALL CHIEXOTIC JUICE(13)"/>
+        <item android:id="@+id/fourteen_small_chiexotic_juice" android:title="4200 NAIRA SMALL CHIEXOTIC JUICE(14)"/>
+        <item android:id="@+id/fifteen_small_chiexotic_juice" android:title="4500 NAIRA SMALL CHIEXOTIC JUICE(15)"/>
+        <item android:id="@+id/sixteen_small_chiexotic_juice" android:title="4800 NAIRA SMALL CHIEXOTIC JUICE(16)"/>
+        <item android:id="@+id/seventeen_small_chiexotic_juice" android:title="5100 NAIRA SMALL CHIEXOTIC JUICE(17)"/>
+        <item android:id="@+id/eighteen_small_chiexotic_juice" android:title="5400 NAIRA SMALL CHIEXOTIC JUICE(18)"/>
+        <item android:id="@+id/nineteen_small_chiexotic_juice" android:title="5700 NAIRA SMALL CHIEXOTIC JUICE(19)"/>
+        <item android:id="@+id/twenty_small_chiexotic_juice" android:title="6000 NAIRA SMALL CHIEXOTIC JUICE(20)"/>
+    </group>
+
+</menu>

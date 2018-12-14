@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Pet_Pepsi">
+        <item android:id="@+id/five_pet_pepsi" android:title="500 NAIRA PET PEPSI(5)"/>
+        <item android:id="@+id/six_pet_pepsi" android:title="600 NAIRA PET PEPSI(6)"/>
+        <item android:id="@+id/seven_pet_pepsi" android:title="700 NAIRA PET PEPSI(7)"/>
+        <item android:id="@+id/eight_pet_pepsi" android:title="800 NAIRA PET PEPSI(8)"/>
+        <item android:id="@+id/nine_pet_pepsi" android:title="900 NAIRA PET PEPSI(9)"/>
+        <item android:id="@+id/ten_pet_pepsi" android:title="1000 NAIRA PET PEPSI(10)"/>
+        <item android:id="@+id/eleven_pet_pepsi" android:title="1100 NAIRA PET PEPSI(11)"/>
+        <item android:id="@+id/twelve_pet_pepsi" android:title="1200 NAIRA PET PEPSI(12)"/>
+        <item android:id="@+id/thirteen_pet_pepsi" android:title="1300 NAIRA PET PEPSI(13)"/>
+        <item android:id="@+id/fourteen_pet_pepsi" android:title="1400 NAIRA PET PEPSI(14)"/>
+        <item android:id="@+id/fifteen_pet_pepsi" android:title="1500 NAIRA PET PEPSI(15)"/>
+        <item android:id="@+id/sixteen_pet_pepsi" android:title="1600 NAIRA PET PEPSI(16)"/>
+        <item android:id="@+id/seventeen_pet_pepsi" android:title="1700 NAIRA PET PEPSI(17)"/>
+        <item android:id="@+id/eighteen_pet_pepsi" android:title="1800 NAIRA PET PEPSI(18)"/>
+        <item android:id="@+id/nineteen_pet_pepsi" android:title="1900 NAIRA PET PEPSI(19)"/>
+        <item android:id="@+id/twenty_pet_pepsi" android:title="2000 NAIRA PET PEPSI(20)"/>
+    </group>
+
+</menu>

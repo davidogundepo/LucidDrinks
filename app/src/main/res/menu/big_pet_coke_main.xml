@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Big_Pet_Coke">
+        <item android:id="@+id/five_big_pet_coke" android:title="750 NAIRA BIG PET COKE(5)"/>
+        <item android:id="@+id/six_big_pet_coke" android:title="900 NAIRA BIG PET COKE(6)"/>
+        <item android:id="@+id/seven_big_pet_coke" android:title="1050 NAIRA BIG PET COKE(7)"/>
+        <item android:id="@+id/eight_big_pet_coke" android:title="1200 NAIRA BIG PET COKE(8)"/>
+        <item android:id="@+id/nine_big_pet_coke" android:title="1350 NAIRA BIG PET COKE(9)"/>
+        <item android:id="@+id/ten_big_pet_coke" android:title="1500 NAIRA BIG PET COKE(10)"/>
+        <item android:id="@+id/eleven_big_pet_coke" android:title="1650 NAIRA BIG PET COKE(11)"/>
+        <item android:id="@+id/twelve_big_pet_coke" android:title="1800 NAIRA BIG PET COKE(12)"/>
+        <item android:id="@+id/thirteen_big_pet_coke" android:title="1950 NAIRA BIG PET COKE(13)"/>
+        <item android:id="@+id/fourteen_big_pet_coke" android:title="2100 NAIRA BIG PET COKE(14)"/>
+        <item android:id="@+id/fifteen_big_pet_coke" android:title="2250 NAIRA BIG PET COKE(15)"/>
+        <item android:id="@+id/sixteen_big_pet_coke" android:title="2400 NAIRA BIG PET COKE(16)"/>
+        <item android:id="@+id/seventeen_big_pet_coke" android:title="2550 NAIRA BIG PET COKE(17)"/>
+        <item android:id="@+id/eighteen_big_pet_coke" android:title="2700 NAIRA BIG PET COKE(18)"/>
+        <item android:id="@+id/nineteen_big_pet_coke" android:title="2850 NAIRA BIG PET COKE(19)"/>
+        <item android:id="@+id/twenty_big_pet_coke" android:title="3000 NAIRA BIG PET COKE(20)"/>
+    </group>
+
+</menu>

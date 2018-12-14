@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Small_Pet_Fanta">
+        <item android:id="@+id/five_small_pet_fanta" android:title="500 NAIRA SMALL P. FANTA(5)"/>
+        <item android:id="@+id/six_small_pet_fanta" android:title="600 NAIRA SMALL P. FANTA(6)"/>
+        <item android:id="@+id/seven_small_pet_fanta" android:title="700 NAIRA SMALL P. FANTA(7)"/>
+        <item android:id="@+id/eight_small_pet_fanta" android:title="800 NAIRA SMALL P. FANTA(8)"/>
+        <item android:id="@+id/nine_small_pet_fanta" android:title="900 NAIRA SMALL P. FANTA(9)"/>
+        <item android:id="@+id/ten_small_pet_fanta" android:title="1000 NAIRA SMALL P. FANTA(10)"/>
+        <item android:id="@+id/eleven_small_pet_fanta" android:title="1100 NAIRA SMALL P. FANTA(11)"/>
+        <item android:id="@+id/twelve_small_pet_fanta" android:title="1200 NAIRA SMALL P. FANTA(12)"/>
+        <item android:id="@+id/thirteen_small_pet_fanta" android:title="1300 NAIRA SMALL P. FANTA(13)"/>
+        <item android:id="@+id/fourteen_small_pet_fanta" android:title="1400 NAIRA SMALL P. FANTA(14)"/>
+        <item android:id="@+id/fifteen_small_pet_fanta" android:title="1500 NAIRA SMALL P. FANTA(15)"/>
+        <item android:id="@+id/sixteen_small_pet_fanta" android:title="1600 NAIRA SMALL P. FANTA(16)"/>
+        <item android:id="@+id/seventeen_small_pet_fanta" android:title="1700 NAIRA SMALL P. FANTA(17)"/>
+        <item android:id="@+id/eighteen_small_pet_fanta" android:title="1800 NAIRA SMALL P. FANTA(18)"/>
+        <item android:id="@+id/nineteen_small_pet_fanta" android:title="1900 NAIRA SMALL P. FANTA(19)"/>
+        <item android:id="@+id/twenty_small_pet_fanta" android:title="2000 NAIRA SMALL P. FANTA(20)"/>
+    </group>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Pet_Water">
+        <item android:id="@+id/five_pet_water" android:title="300 NAIRA BOTTLE WATER(5)"/>
+        <item android:id="@+id/six_pet_water" android:title="360 NAIRA BOTTLE WATER(6)"/>
+        <item android:id="@+id/seven_pet_water" android:title="420 NAIRA BOTTLE WATER(7)"/>
+        <item android:id="@+id/eight_pet_water" android:title="480 NAIRA BOTTLE WATER(8)"/>
+        <item android:id="@+id/nine_pet_water" android:title="540 NAIRA BOTTLE WATER(9)"/>
+        <item android:id="@+id/ten_pet_water" android:title="600 NAIRA BOTTLE WATER(10)"/>
+        <item android:id="@+id/eleven_pet_water" android:title="660 NAIRA BOTTLE WATER(11)"/>
+        <item android:id="@+id/twelve_pet_water" android:title="720 NAIRA BOTTLE WATER(12)"/>
+        <item android:id="@+id/thirteen_pet_water" android:title="780 NAIRA BOTTLE WATER(13)"/>
+        <item android:id="@+id/fourteen_pet_water" android:title="840 NAIRA BOTTLE WATER(14)"/>
+        <item android:id="@+id/fifteen_pet_water" android:title="900 NAIRA BOTTLE WATER(15)"/>
+        <item android:id="@+id/sixteen_pet_water" android:title="960 NAIRA BOTTLE WATER(16)"/>
+        <item android:id="@+id/seventeen_pet_water" android:title="1020 NAIRA BOTTLE WATER(17)"/>
+        <item android:id="@+id/eighteen_pet_water" android:title="1080 NAIRA BOTTLE WATER(18)"/>
+        <item android:id="@+id/nineteen_pet_water" android:title="1140 NAIRA BOTTLE WATER(19)"/>
+        <item android:id="@+id/twenty_pet_water" android:title="1200 NAIRA BOTTLE WATER(20)"/>
+    </group>
+
+</menu>

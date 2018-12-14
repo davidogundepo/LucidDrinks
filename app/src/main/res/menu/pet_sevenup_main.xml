@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Pet_SevenUp">
+        <item android:id="@+id/five_pet_sevenup" android:title="500 NAIRA P. SEVENUP(5)"/>
+        <item android:id="@+id/six_pet_sevenup" android:title="600 NAIRA P. SEVENUP(6)"/>
+        <item android:id="@+id/seven_pet_sevenup" android:title="700 NAIRA P. SEVENUP(7)"/>
+        <item android:id="@+id/eight_pet_sevenup" android:title="800 NAIRA P. SEVENUP(8)"/>
+        <item android:id="@+id/nine_pet_sevenup" android:title="900 NAIRA P. SEVENUP(9)"/>
+        <item android:id="@+id/ten_pet_sevenup" android:title="1000 NAIRA P. SEVENUP(10)"/>
+        <item android:id="@+id/eleven_pet_sevenup" android:title="1100 NAIRA P. SEVENUP(11)"/>
+        <item android:id="@+id/twelve_pet_sevenup" android:title="1200 NAIRA P. SEVENUP(12)"/>
+        <item android:id="@+id/thirteen_pet_sevenup" android:title="1300 NAIRA P. SEVENUP(13)"/>
+        <item android:id="@+id/fourteen_pet_sevenup" android:title="1400 NAIRA P. SEVENUP(14)"/>
+        <item android:id="@+id/fifteen_pet_sevenup" android:title="1500 NAIRA P. SEVENUP(15)"/>
+        <item android:id="@+id/sixteen_pet_sevenup" android:title="1600 NAIRA P. SEVENUP(16)"/>
+        <item android:id="@+id/seventeen_pet_sevenup" android:title="1700 NAIRA P. SEVENUP(17)"/>
+        <item android:id="@+id/eighteen_pet_sevenup" android:title="1800 NAIRA P. SEVENUP(18)"/>
+        <item android:id="@+id/nineteen_pet_sevenup" android:title="1900 NAIRA P. SEVENUP(19)"/>
+        <item android:id="@+id/twenty_pet_sevenup" android:title="2000 NAIRA P. SEVENUP(20)"/>
+    </group>
+
+</menu>

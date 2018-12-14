@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/pet_schweppes">
+        <item android:id="@+id/five_pet_schweppes" android:title="600 NAIRA PET SCHWEPPES(5)"/>
+        <item android:id="@+id/six_pet_schweppes" android:title="720 NAIRA PET SCHWEPPES(6)"/>
+        <item android:id="@+id/seven_pet_schweppes" android:title="840 NAIRA PET SCHWEPPES(7)"/>
+        <item android:id="@+id/eight_pet_schweppes" android:title="960 NAIRA PET SCHWEPPES(8)"/>
+        <item android:id="@+id/nine_pet_schweppes" android:title="1080 NAIRA PET SCHWEPPES(9)"/>
+        <item android:id="@+id/ten_pet_schweppes" android:title="1200 NAIRA PET SCHWEPPES(10)"/>
+        <item android:id="@+id/eleven_pet_schweppes" android:title="1320 NAIRA PET SCHWEPPES(11)"/>
+        <item android:id="@+id/twelve_pet_schweppes" android:title="1440 NAIRA PET SCHWEPPES(12)"/>
+        <item android:id="@+id/thirteen_pet_schweppes" android:title="1560 NAIRA PET SCHWEPPES(13)"/>
+        <item android:id="@+id/fourteen_pet_schweppes" android:title="1680 NAIRA PET SCHWEPPES(14)"/>
+        <item android:id="@+id/fifteen_pet_schweppes" android:title="1800 NAIRA PET SCHWEPPES(15)"/>
+        <item android:id="@+id/sixteen_pet_schweppes" android:title="1920 NAIRA PET SCHWEPPES(16)"/>
+        <item android:id="@+id/seventeen_pet_schweppes" android:title="2040 NAIRA PET SCHWEPPES(17)"/>
+        <item android:id="@+id/eighteen_pet_schweppes" android:title="2160 NAIRA PET SCHWEPPES(18)"/>
+        <item android:id="@+id/nineteen_pet_schweppes" android:title="2280 NAIRA PET SCHWEPPES(19)"/>
+        <item android:id="@+id/twenty_pet_schweppes" android:title="2400 NAIRA PET SCHWEPPES(20)"/>
+    </group>
+
+</menu>

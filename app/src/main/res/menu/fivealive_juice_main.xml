@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/FiveAlive_Juice">
+        <item android:id="@+id/five_fivealive_juice" android:title="2500 NAIRA 5ALIVE JUICE(5)"/>
+        <item android:id="@+id/six_fivealive_juice" android:title="3000 NAIRA 5ALIVE JUICE(6)"/>
+        <item android:id="@+id/seven_fivealive_juice" android:title="3500 NAIRA 5ALIVE JUICE(7)"/>
+        <item android:id="@+id/eight_fivealive_juice" android:title="4000 NAIRA 5ALIVE JUICE(8)"/>
+        <item android:id="@+id/nine_fivealive_juice" android:title="4500 NAIRA 5ALIVE JUICE(9)"/>
+        <item android:id="@+id/ten_fivealive_juice" android:title="5000 NAIRA 5ALIVE JUICE(10)"/>
+        <item android:id="@+id/eleven_fivealive_juice" android:title="5500 NAIRA 5ALIVE JUICE(11)"/>
+        <item android:id="@+id/twelve_fivealive_juice" android:title="6000 NAIRA 5ALIVE JUICE(12)"/>
+        <item android:id="@+id/thirteen_fivealive_juice" android:title="6500 NAIRA 5ALIVE JUICE(13)"/>
+        <item android:id="@+id/fourteen_fivealive_juice" android:title="7000 NAIRA 5ALIVE JUICE(14)"/>
+        <item android:id="@+id/fifteen_fivealive_juice" android:title="7500 NAIRA 5ALIVE JUICE(15)"/>
+        <item android:id="@+id/sixteen_fivealive_juice" android:title="8000 NAIRA 5ALIVE JUICE(16)"/>
+        <item android:id="@+id/seventeen_fivealive_juice" android:title="8500 NAIRA 5ALIVE JUICE(17)"/>
+        <item android:id="@+id/eighteen_fivealive_juice" android:title="9000 NAIRA 5ALIVE JUICE(18)"/>
+        <item android:id="@+id/nineteen_fivealive_juice" android:title="9500 NAIRA 5ALIVE JUICE(19)"/>
+        <item android:id="@+id/twenty_fivealive_juice" android:title="10000 NAIRA 5ALIVE JUICE(20)"/>
+    </group>
+
+</menu>

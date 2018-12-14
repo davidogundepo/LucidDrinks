@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/pet_fivealive">
+        <item android:id="@+id/five_pet_fivealive" android:title="1000 NAIRA PET 5ALIVE(5)"/>
+        <item android:id="@+id/six_pet_fivealive" android:title="1200 NAIRA PET 5ALIVE(6)"/>
+        <item android:id="@+id/seven_pet_fivealive" android:title="1400 NAIRA PET 5ALIVE(7)"/>
+        <item android:id="@+id/eight_pet_fivealive" android:title="1600 NAIRA PET 5ALIVE(8)"/>
+        <item android:id="@+id/nine_pet_fivealive" android:title="1800 NAIRA PET 5ALIVE(9)"/>
+        <item android:id="@+id/ten_pet_fivealive" android:title="2000 NAIRA PET 5ALIVE(10)"/>
+        <item android:id="@+id/eleven_pet_fivealive" android:title="2200 NAIRA PET 5ALIVE(11)"/>
+        <item android:id="@+id/twelve_pet_fivealive" android:title="2400 NAIRA PET 5ALIVE(12)"/>
+        <item android:id="@+id/thirteen_pet_fivealive" android:title="2600 NAIRA PET 5ALIVE(13)"/>
+        <item android:id="@+id/fourteen_pet_fivealive" android:title="2800 NAIRA PET 5ALIVE(14)"/>
+        <item android:id="@+id/fifteen_pet_fivealive" android:title="3000 NAIRA PET 5ALIVE(15)"/>
+        <item android:id="@+id/sixteen_pet_fivealive" android:title="3200 NAIRA PET 5ALIVE(16)"/>
+        <item android:id="@+id/seventeen_pet_fivealive" android:title="3400 NAIRA PET 5ALIVE(17)"/>
+        <item android:id="@+id/eighteen_pet_fivealive" android:title="3600 NAIRA PET 5ALIVE(18)"/>
+        <item android:id="@+id/nineteen_pet_fivealive" android:title="3800 NAIRA PET 5ALIVE(19)"/>
+        <item android:id="@+id/twenty_pet_fivealive" android:title="4000 NAIRA PET 5ALIVE(20)"/>
+    </group>
+
+</menu>

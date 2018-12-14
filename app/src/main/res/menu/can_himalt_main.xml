@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Can_Himalt">
+        <item android:id="@+id/five_can_himalt" android:title="750 NAIRA C. HIMALT(5)"/>
+        <item android:id="@+id/six_can_himalt" android:title="900 NAIRA C. HIMALT(6)"/>
+        <item android:id="@+id/seven_can_himalt" android:title="1050 NAIRA C. HIMALT(7)"/>
+        <item android:id="@+id/eight_can_himalt" android:title="1200 NAIRA C. HIMALT(8)"/>
+        <item android:id="@+id/nine_can_himalt" android:title="1350 NAIRA C. HIMALT(9)"/>
+        <item android:id="@+id/ten_can_himalt" android:title="1500 NAIRA C. HIMALT(10)"/>
+        <item android:id="@+id/eleven_can_himalt" android:title="1650 NAIRA C. HIMALT(11)"/>
+        <item android:id="@+id/twelve_can_himalt" android:title="1800 NAIRA C. HIMALT(12)"/>
+        <item android:id="@+id/thirteen_can_himalt" android:title="1950 NAIRA C. HIMALT(13)"/>
+        <item android:id="@+id/fourteen_can_himalt" android:title="2100 NAIRA C. HIMALT(14)"/>
+        <item android:id="@+id/fifteen_can_himalt" android:title="2250 NAIRA C. HIMALT(15)"/>
+        <item android:id="@+id/sixteen_can_himalt" android:title="2400 NAIRA C. HIMALT(16)"/>
+        <item android:id="@+id/seventeen_can_himalt" android:title="2550 NAIRA C. HIMALT(17)"/>
+        <item android:id="@+id/eighteen_can_himalt" android:title="2700 NAIRA C. HIMALT(18)"/>
+        <item android:id="@+id/nineteen_can_himalt" android:title="2850 NAIRA C. HIMALT(19)"/>
+        <item android:id="@+id/twenty_can_himalt" android:title="3000 NAIRA C. HIMALT(20)"/>
+    </group>
+
+</menu>

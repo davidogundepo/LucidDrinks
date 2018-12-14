@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Big_Glass_Fanta">
+        <item android:id="@+id/five_big_glass_fanta" android:title="500 NAIRA BIG G. FANTA(5)"/>
+        <item android:id="@+id/six_big_glass_fanta" android:title="600 NAIRA BIG G. FANTA(6)"/>
+        <item android:id="@+id/seven_big_glass_fanta" android:title="700 NAIRA BIG G. FANTA(7)"/>
+        <item android:id="@+id/eight_big_glass_fanta" android:title="800 NAIRA BIG G. FANTA(8)"/>
+        <item android:id="@+id/nine_big_glass_fanta" android:title="900 NAIRA BIG G. FANTA(9)"/>
+        <item android:id="@+id/ten_big_glass_fanta" android:title="1000 NAIRA BIG G. FANTA(10)"/>
+        <item android:id="@+id/eleven_big_glass_fanta" android:title="1100 NAIRA BIG G. FANTA(11)"/>
+        <item android:id="@+id/twelve_big_glass_fanta" android:title="1200 NAIRA BIG G. FANTA(12)"/>
+        <item android:id="@+id/thirteen_big_glass_fanta" android:title="1300 NAIRA BIG G. FANTA(13)"/>
+        <item android:id="@+id/fourteen_big_glass_fanta" android:title="1400 NAIRA BIG G. FANTA(14)"/>
+        <item android:id="@+id/fifteen_big_glass_fanta" android:title="1500 NAIRA BIG G. FANTA(15)"/>
+        <item android:id="@+id/sixteen_big_glass_fanta" android:title="1600 NAIRA BIG G. FANTA(16)"/>
+        <item android:id="@+id/seventeen_big_glass_fanta" android:title="1700 NAIRA BIG G. FANTA(17)"/>
+        <item android:id="@+id/eighteen_big_glass_fanta" android:title="1800 NAIRA BIG G. FANTA(18)"/>
+        <item android:id="@+id/nineteen_big_glass_fanta" android:title="1900 NAIRA BIG G. FANTA(19)"/>
+        <item android:id="@+id/twenty_big_glass_fanta" android:title="2000 NAIRA BIG G. FANTA(20)"/>
+    </group>
+
+</menu>

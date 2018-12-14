@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundThree"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp"
+    android:scrollbarThumbVertical="@drawable/da_scrollbar_vertical_thumb"
+    android:scrollbarFadeDuration="1000"
+    android:smoothScrollbar="true" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BackgroundThree"
+        android:id="@+id/drinkmenu_chosendrink">
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayoutOne"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Istchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Secondchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Istchosendeletebutton"
+                    android:clickable="true"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Istchosenbutton"
+                    android:contentDescription="@string/istchosendeletebuttoncontentv21_1" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Secondchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Secondchosenbutton"
+                    android:contentDescription="@string/secondchosendeletebuttoncontentv21_2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayoutTwo"
+            android:layout_below="@+id/linearLayoutOne"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Thirdchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Fourthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Thirdchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Thirdchosenbutton"
+                    android:contentDescription="@string/thirdchosendeletebuttoncontentv21_3" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Fourthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Fourthchosenbutton"
+                    android:contentDescription="@string/fourthchosendeletebuttoncontentv21_4" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayoutThree"
+            android:layout_below="@+id/linearLayoutTwo"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Fifthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Sixthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Fifthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Fifthchosenbutton"
+                    android:contentDescription="@string/fifthchosendeletebuttoncontentv21_5" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Sixthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Sixthchosenbutton"
+                    android:contentDescription="@string/sixthchosendeletebuttoncontentv21_6" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutFour"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linearLayoutThree"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Seventhchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Eightchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Seventhchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Seventhchosenbutton"
+                    android:contentDescription="@string/seventhchosendeletebuttoncontentv21_7" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Eightchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Eightchosenbutton"
+                    android:contentDescription="@string/eightchosendeletebuttoncontentv21_8" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutFive"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutFour"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Ninthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Tenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Ninthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Ninthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Tenthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Tenthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutSix"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutFive"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Eleventhchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Twelvthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Eleventhchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Eleventhchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Twelvthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Twelvthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutSeven"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutSix"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Thirteenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Fourteenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Thirteenthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Thirteenthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Fourteenthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Fourteenthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutEight"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutSeven"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Fifteenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Sixteenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Fifteenthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Fifteenthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Sixteenthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Sixteenthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutNine"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutEight"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Seventeenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Eighteenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Seventeenthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Seventeenthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Eighteenthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Eighteenthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutTen"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutNine"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Nineteenthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Twentiethchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Nineteenthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Nineteenthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Twentiethchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Twentiethchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linearLayoutTen"
+            android:id="@+id/linearLayoutEleven"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentyIstchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentySecondchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentyIstchosendeletebutton"
+                    android:clickable="true"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentyIstchosenbutton"
+                    android:contentDescription="@string/istchosendeletebuttoncontentv21_1" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentySecondchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentySecondchosenbutton"
+                    android:contentDescription="@string/secondchosendeletebuttoncontentv21_2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayoutTwelve"
+            android:layout_below="@+id/linearLayoutEleven"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentyThirdchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentyFourthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentyThirdchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentyThirdchosenbutton"
+                    android:contentDescription="@string/thirdchosendeletebuttoncontentv21_3" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentyFourthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentyFourthchosenbutton"
+                    android:contentDescription="@string/fourthchosendeletebuttoncontentv21_4" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayoutThirteen"
+            android:layout_below="@+id/linearLayoutTwelve"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentyFifthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentySixthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentyFifthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentyFifthchosenbutton"
+                    android:contentDescription="@string/fifthchosendeletebuttoncontentv21_5" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentySixthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentySixthchosenbutton"
+                    android:contentDescription="@string/sixthchosendeletebuttoncontentv21_6" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutFourteen"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linearLayoutThirteen"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentySeventhchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentyEightchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentySeventhchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentySeventhchosenbutton"
+                    android:contentDescription="@string/seventhchosendeletebuttoncontentv21_7" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentyEightchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentyEightchosenbutton"
+                    android:contentDescription="@string/eightchosendeletebuttoncontentv21_8" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutFifteen"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutFourteen"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TwentyNinthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Thirtiethchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/TwentyNinthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/TwentyNinthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Thirtiethchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Thirtiethchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutSixteen"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutFifteen"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtyIstchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtySecondchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtyIstchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtyIstchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtySecondchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtySecondchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutSeventeen"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutSixteen"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtyThirdchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtyFourthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtyThirdchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtyThirdchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtyFourthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtyFourthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutEighteen"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutSeventeen"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtyFifthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtySixthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtyFifthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtyFifthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtySixthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtySixthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutNineteen"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutEighteen"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtySeventhchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtyEighthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtySeventhchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtySeventhchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtyEighthchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtyEighthchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutTwenty"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutNineteen"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ThirtyNinthchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Fourtiethchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/ThirtyNinthchosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/ThirtyNinthchosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/Fourtiethchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/Fourtiethchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutTwentyOne"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutTwenty"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FourtyOnechosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FourtyTwochosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/FourtyOnechosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/FourtyOnechosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/FourtyTwochosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/FourtyTwochosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutTwentyTwo"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutTwentyOne"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FourtyThreechosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FourtyFourchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   
+                    android:id="@+id/FourtyThreechosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/FourtyThreechosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:elevation="10dp"
+                    android:id="@+id/FourtyFourchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/FourtyFourchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/BackgroundThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutTwentyThree"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutTwentyTwo"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:background="@color/BackgroundThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FourtyFivechosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:textSize="20dp"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FourtySixchosenbutton"
+                    android:background="@drawable/da_chosendrink_buttons_circleside"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20dp"
+                    android:visibility="gone"
+                    android:textColor="@color/ChosenPlateTextColor"
+                    android:fontFamily="14pt"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:elevation="10dp"
+                    android:id="@+id/FourtyFivechosendeleltebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/FourtyFivechosenbutton"
+                    android:contentDescription="@string/ninthchosendeleltebuttoncontentv21_9" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:elevation="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/FourtySixchosendeletebutton"
+                    android:background="@drawable/a_da_chosendrink_deletebackground"
+                    android:src="@drawable/a_da_chosendrink_delete"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignEnd="@+id/FourtySixchosenbutton"
+                    android:contentDescription="@string/tenthchosendeletebuttoncontentv21_10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Pet_Smoov">
+        <item android:id="@+id/five_pet_smoov" android:title="750 NAIRA PET SMOOV(5)"/>
+        <item android:id="@+id/six_pet_smoov" android:title="900 NAIRA PET SMOOV(6)"/>
+        <item android:id="@+id/seven_pet_smoov" android:title="1050 NAIRA PET SMOOV(7)"/>
+        <item android:id="@+id/eight_pet_smoov" android:title="1200 NAIRA PET SMOOV(8)"/>
+        <item android:id="@+id/nine_pet_smoov" android:title="1350 NAIRA PET SMOOV(9)"/>
+        <item android:id="@+id/ten_pet_smoov" android:title="1500 NAIRA PET SMOOV(10)"/>
+        <item android:id="@+id/eleven_pet_smoov" android:title="1650 NAIRA PET SMOOV(11)"/>
+        <item android:id="@+id/twelve_pet_smoov" android:title="1800 NAIRA PET SMOOV(12)"/>
+        <item android:id="@+id/thirteen_pet_smoov" android:title="1950 NAIRA PET SMOOV(13)"/>
+        <item android:id="@+id/fourteen_pet_smoov" android:title="2100 NAIRA PET SMOOV(14)"/>
+        <item android:id="@+id/fifteen_pet_smoov" android:title="2250 NAIRA PET SMOOV(15)"/>
+        <item android:id="@+id/sixteen_pet_smoov" android:title="2400 NAIRA PET SMOOV(16)"/>
+        <item android:id="@+id/seventeen_pet_smoov" android:title="2550 NAIRA PET SMOOV(17)"/>
+        <item android:id="@+id/eighteen_pet_smoov" android:title="2700 NAIRA PET SMOOV(18)"/>
+        <item android:id="@+id/nineteen_pet_smoov" android:title="2850 NAIRA PET SMOOV(19)"/>
+        <item android:id="@+id/twenty_pet_smoov" android:title="3000 NAIRA PET SMOOV(20)"/>
+    </group>
+
+</menu>

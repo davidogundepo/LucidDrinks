@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    android:enterFadeDuration="200"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape
+            android:shape="rectangle">
+
+            <corners
+                android:topLeftRadius="25dp"
+                android:topRightRadius="25dp" />
+
+            <solid android:color="@color/BackgroundFive"/>
+
+            <size
+                android:width="80dp"
+                android:height="80dp" />
+
+        </shape>
+    </item>
+
+</selector>
+

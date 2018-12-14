@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/Can_MaltaGold">
+        <item android:id="@+id/five_can_maltagold" android:title="750 NAIRA C. MALTAGOLD(5)"/>
+        <item android:id="@+id/six_can_maltagold" android:title="900 NAIRA C. MALTAGOLD(6)"/>
+        <item android:id="@+id/seven_can_maltagold" android:title="1050 NAIRA C. MALTAGOLD(7)"/>
+        <item android:id="@+id/eight_can_maltagold" android:title="1200 NAIRA C. MALTAGOLD(8)"/>
+        <item android:id="@+id/nine_can_maltagold" android:title="1350 NAIRA C. MALTAGOLD(9)"/>
+        <item android:id="@+id/ten_can_maltagold" android:title="1500 NAIRA C. MALTAGOLD(10)"/>
+        <item android:id="@+id/eleven_can_maltagold" android:title="1650 NAIRA C. MALTAGOLD(11)"/>
+        <item android:id="@+id/twelve_can_maltagold" android:title="1800 NAIRA C. MALTAGOLD(12)"/>
+        <item android:id="@+id/thirteen_can_maltagold" android:title="1950 NAIRA C. MALTAGOLD(13)"/>
+        <item android:id="@+id/fourteen_can_maltagold" android:title="2100 NAIRA C. MALTAGOLD(14)"/>
+        <item android:id="@+id/fifteen_can_maltagold" android:title="2250 NAIRA C. MALTAGOLD(15)"/>
+        <item android:id="@+id/sixteen_can_maltagold" android:title="2400 NAIRA C. MALTAGOLD(16)"/>
+        <item android:id="@+id/seventeen_can_maltagold" android:title="2550 NAIRA C. MALTAGOLD(17)"/>
+        <item android:id="@+id/eighteen_can_maltagold" android:title="2700 NAIRA C. MALTAGOLD(18)"/>
+        <item android:id="@+id/nineteen_can_maltagold" android:title="2850 NAIRA C. MALTAGOLD(19)"/>
+        <item android:id="@+id/twenty_can_maltagold" android:title="3000 NAIRA C. MALTAGOLD(20)"/>
+    </group>
+
+</menu>

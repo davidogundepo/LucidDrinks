@@ -1,0 +1,781 @@
+<resources>
+    <string name="app_name">LucidDrink</string>
+
+    <string name="display_items">ITEMS</string>
+    <string name="goto_login">DONE</string>
+    <string name="done">Buy</string>
+    <string name="cancel">Cancel</string>
+    <string name="okay">Okay</string>
+    <string name="WelcomeSweet">Welcome</string>
+    <string name="name">DAModel</string>
+    <string name="hello_amazing">Hello Amazing</string>
+    <string name="icdat_christ">icdat.christ</string>
+    <string name="pin_4_digits">pin (4 digits)</string>
+    <string name="access">Access</string>
+    <string name="not_entered">Not Entered</string>
+    <string name="not_entered2">Not Entered</string>
+    <string name="parseVendorId">Push Vendor Id</string>
+    <string name="clearalll">ClearAll</string>
+    <string name="clearallv21">ClearAllv21</string>
+    <string name="clearalllv21">ClearAllv21</string>
+    <string name="dynamicplatecount">DynamicPlateCount</string>
+    <string name="please_serve_the_recipient__ServingActivity">Please Serve the Recipient</string>
+    <string name="buttonserved_ServingActivity">SERVED</string>
+    <string name="please_serve_the_recipient_v21_ServingActivity">Please Serve the Recipient</string>
+    <string name="buttonservedv21_ServingActivity">SERVED</string>
+    <string name="Checkbox_buy_in_plate_drinkActivity"> Buying in Plate(s)</string>
+    <string name="ButtonHintSelect_drinkPrice_drinkActivity">select</string>
+    <string name="ButtonHintSelect2_drinkPrice_drinkActivity">select</string>
+    <string name="ButtonHintSelect3_drinkPrice_drinkActivity">select</string>
+    <string name="ButtonHintSelect4_drinkPrice_drinkActivity">select</string>
+    <string name="ButtonHintSelect5_drinkPrice_drinkActivity">select</string>
+    <string name="ButtonHintSelect6_drinkPrice_drinkActivity">select</string>
+    <string name="ButtonHintSelectv23_drinkPrice_drinkActivity">select</string>
+    <string name="ButtonHintSelectv23_drinkPrice_drinkActivity2">select</string>
+    <string name="ButtonHintSelectv23_drinkPrice_drinkActivity_3">select</string>
+    <string name="ButtonHintSelectv23_drinkPrice_drinkActivity_4">select</string>
+    <string name="ButtonHintSelectv23_drinkPrice_drinkActivity_5">select</string>
+    <string name="istchosendeletebuttoncontent1">IstchosendeletebuttonCONTENT</string>
+    <string name="secondchosendeletebuttoncontent2">SecondchosendeletebuttonCONTENT</string>
+    <string name="thirdchosendeletebuttoncontent3">ThirdchosendeletebuttonCONTENT</string>
+    <string name="fourthchosendeletebutton4">Fourthchosendeletebutton</string>
+    <string name="fifthchosendeletebuttoncontent5">FifthchosendeletebuttonCONTENT</string>
+    <string name="sixthchosendeletebuttoncontent6">SixthchosendeletebuttonCONTENT</string>
+    <string name="seventhch_osendeletebuttoncontent7">SeventhchosendeletebuttonCONTENT</string>
+    <string name="eightchosendeletebuttoncontent8">EightchosendeletebuttonCONTENT</string>
+    <string name="ninthchosendeleltebuttoncontent9">NinthchosendeleltebuttonCONTENT</string>
+    <string name="tenthchosendeletebuttoncontent10">TenthchosendeletebuttonCONTENT</string>
+    <string name="istchosendeletebuttoncontentv21_1">IstchosendeletebuttonCONTENT</string>
+    <string name="secondchosendeletebuttoncontentv21_2">SecondchosendeletebuttonCONTENT</string>
+    <string name="thirdchosendeletebuttoncontentv21_3">ThirdchosendeletebuttonCONTENT</string>
+    <string name="fourthchosendeletebuttoncontentv21_4">FourthchosendeletebuttonCONTENT</string>
+    <string name="fifthchosendeletebuttoncontentv21_5">FifthchosendeletebuttonCONTENT</string>
+    <string name="sixthchosendeletebuttoncontentv21_6">SixthchosendeletebuttonCONTENT</string>
+    <string name="seventhchosendeletebuttoncontentv21_7">SeventhchosendeletebuttonCONTENT</string>
+    <string name="eightchosendeletebuttoncontentv21_8">EightchosendeletebuttonCONTENT</string>
+    <string name="ninthchosendeleltebuttoncontentv21_9">NinthchosendeleltebuttonCONTENT</string>
+    <string name="tenthchosendeletebuttoncontentv21_10">TenthchosendeletebuttonCONTENT</string>
+    <string name="purchasebutton_drinkmenuFragment4_drinkmenuActivity">Purchase</string>
+    <string name="auto_bio_drinkmenuFragment4_drinkmenuActivityv21">Auto Bio</string>
+    <string name="auto_bio_drinkmenuFragment4_drinkmenuActvity">Auto Bio</string>
+    <string name="calc_space_Counter_drinkmenuFragment5_drinkmenuActivityv21">Calc. Space</string>
+    <string name="calc_space_Counter_drinkmenuFragment5_drinkmenuActivity">Calc. Space</string>
+    <string name="one_plate_only_Dynamic_Drinkcount__VendorActivity_1">One Plate Only</string>
+    <string name="two_Drinks_only_Dynamic_Drinkcount__VendorActivity_2">Two Drinks</string>
+    <string name="three_Drinks_only_Dynamic_Drinkcount__VendorActivity_3">Three Drinks</string>
+    <string name="four_Drinks_only_Dynamic_Drinkcount__VendorActivity_4">Four Drinks</string>
+    <string name="five_Drinks_only_Dynamic_Drinkcount__VendorActivity_5">Five Drinks</string>
+    <string name="six_Drinks_only_Dynamic_Drinkcount__VendorActivity_6">Six Drinks</string>
+    <string name="seven_Drinks_only_Dynamic_Drinkcount__VendorActivity_7">Seven Drinks</string>
+    <string name="eight_Drinks_only_Dynamic_Drinkcount__VendorActivity_8">Eight Drinks</string>
+    <string name="nine_Drinks_only_Dynamic_Drinkcount__VendorActivity_9">Nine Drinks</string>
+    <string name="ten_Drinks_only_Dynamic_Drinkcount__VendorActivity_10">Ten Drinks</string>
+    <string name="eleven_Drinks_only_Dynamic_Drinkcount__VendorActivity_11">Eleven Drinks</string>
+    <string name="twelve_Drinks_only_Dynamic_Drinkcount__VendorActivity_12">Twelve Drinks</string>
+    <string name="thirteen_Drinks_only_Dynamic_Drinkcount__VendorActivity_13">Thirteen Drinks</string>
+    <string name="fourteen_Drinks_only_Dynamic_Drinkcount__VendorActivity_14">Fourteen Drinks</string>
+    <string name="fifteen_Drinks_only_Dynamic_Drinkcount__VendorActivity_15">Fifteen Drinks</string>
+    <string name="sixteen_Drinks_only_Dynamic_Drinkcount__VendorActivity_16">Sixteen Drinks</string>
+    <string name="seventeen_Drinks_only_Dynamic_Drinkcount__VendorActivity_17">Seventeen Drinks</string>
+    <string name="eighteen_Drinks_only_Dynamic_Drinkcount__VendorActivity_18">Eighteen Drinks</string>
+    <string name="nineteen_Drinks_only_Dynamic_Drinkcount__VendorActivity_19">Nineteen Drinks</string>
+    <string name="twenty_Drinks_only_Dynamic_Drinkcount__VendorActivity_20">Twenty Drinks</string>
+    <string name="twentyone_Drinks_only_Dynamic_Drinkcount__VendorActivity_21">Twentyone Drinks</string>
+    <string name="twentytwo_Drinks_only_Dynamic_Drinkcount__VendorActivity_22">Twentytwo Drinks</string>
+    <string name="twentythree_Drinks_only_Dynamic_Drinkcount__VendorActivity_23">Twentythree Drinks</string>
+    <string name="twentyfour_Drinks_only_Dynamic_Drinkcount__VendorActivity_24">Twentyfour Drinks</string>
+    <string name="twentyfive_Drinks_only_Dynamic_Drinkcount__VendorActivity_25">Twentyfive Drinks</string>
+    <string name="twentysix_Drinks_only_Dynamic_Drinkcount__VendorActivity_26">Twentysix Drinks</string>
+    <string name="twentyseven_Drinks_only_Dynamic_Drinkcount__VendorActivity_27">Twentyseven Drinks</string>
+    <string name="twentyeight_Drinks_only_Dynamic_Drinkcount__VendorActivity_28">Twentyeight Drinks</string>
+    <string name="twentynine_Drinks_only_Dynamic_Drinkcount__VendorActivity_29">Twentynine Drinks</string>
+    <string name="thirty_Drinks_only_Dynamic_Drinkcount__VendorActivity_30">Thirty Drinks</string>
+    <string name="TextViewname_Gridview_VendorActivity">Name</string>
+    <string name="TextViewname_Gridviewv21_VendorActivity">Name</string>
+    <string name="plate_saved_drinkmenuActivity_Toolbar">like present plate</string>
+    <string name="saved_plate_selected_drinkmenuActivity_Toolbar">Saved Plate History</string>
+    <string name="check_balance_drinkmenuActivity_Toolbar">Check Balance</string>
+    <string name="system_settings">Settings</string>
+    <string name="lost_interest_at_this_point">Log Out</string>
+    <string name="drinkmenuActivityFirstToolbarluciddrinkname">LucidDrink</string>
+    <string name="drinkmenuActivitySecondToolbarwelcome_usernamehere">Welcome, Admin</string>
+    <string name="drinkmenuActivityToolbarOneAppnameLessthan">Luciddrink</string>
+    <string name="drinkmenuActivityToolbarTwoWelcome_UsernameLessthan">Welcome, Admin</string>
+    <string name="Content_Description_AnimatedImages">AnimatedImages</string>
+    <string name="Content_Description_AnimatedImages_Lessthan">AnimatedImages_Lessthan</string>
+    <string name="AddorRemoveButton">Items</string>
+    <string name="CheckedItemsInTextView">selectedItems</string>
+    <string name="CheckAllorRemoveAll">All</string>
+    <string name="selecteditemsv19_V_Activity">selectedItems</string>
+    <string name="log_out_Vendor_Login_Activity">Log Out</string>
+    <string name="shut_down_lucid">Shut Down</string>
+    <string name="id_s_name_will_display_here_Vendor_Login_Activity">id\'s name will displayed here</string>
+    <string name="vendor_idnumber">01</string>
+    <string name="one_plate_only_Dynamic_Platecount__VendorActivity_1">One Plate Only</string>
+    <string name="two_plates_only_Dynamic_Platecount__VendorActivity_2">Two Plates</string>
+    <string name="three_plates_only_Dynamic_Platecount__VendorActivity_3">Three Plates</string>
+    <string name="four_plates_only_Dynamic_Platecount__VendorActivity_4">Four Plates</string>
+    <string name="five_plates_only_Dynamic_Platecount__VendorActivity_5">Five Plates</string>
+    <string name="six_plates_only_Dynamic_Platecount__VendorActivity_6">Six Plates</string>
+    <string name="seven_plates_only_Dynamic_Platecount__VendorActivity_7">Seven Plates</string>
+    <string name="eight_plates_only_Dynamic_Platecount__VendorActivity_8">Eight Plates</string>
+    <string name="nine_plates_only_Dynamic_Platecount__VendorActivity_9">Nine Plates</string>
+    <string name="ten_plates_only_Dynamic_Platecount__VendorActivity_10">Ten Plates</string>
+    <string name="eleven_plates_only_Dynamic_Platecount__VendorActivity_11">Eleven Plates</string>
+    <string name="twelve_plates_only_Dynamic_Platecount__VendorActivity_12">Twelve Plates</string>
+    <string name="thirteen_plates_only_Dynamic_Platecount__VendorActivity_13">Thirteen Plates</string>
+    <string name="fourteen_plates_only_Dynamic_Platecount__VendorActivity_14">Fourteen Plates</string>
+    <string name="fifteen_plates_only_Dynamic_Platecount__VendorActivity_15">Fifteen Plates</string>
+    <string name="sixteen_plates_only_Dynamic_Platecount__VendorActivity_16">Sixteen Plates</string>
+    <string name="seventeen_plates_only_Dynamic_Platecount__VendorActivity_17">Seventeen Plates</string>
+    <string name="eighteen_plates_only_Dynamic_Platecount__VendorActivity_18">Eighteen Plates</string>
+    <string name="nineteen_plates_only_Dynamic_Platecount__VendorActivity_19">Nineteen Plates</string>
+    <string name="twenty_plates_only_Dynamic_Platecount__VendorActivity_20">Twenty Plates</string>
+    <string name="twentyone_plates_only_Dynamic_Platecount__VendorActivity_21">Twentyone Plates</string>
+    <string name="twentytwo_plates_only_Dynamic_Platecount__VendorActivity_22">Twentytwo Plates</string>
+    <string name="twentythree_plates_only_Dynamic_Platecount__VendorActivity_23">Twentythree Plates</string>
+    <string name="twentyfour_plates_only_Dynamic_Platecount__VendorActivity_24">Twentyfour Plates</string>
+    <string name="twentyfive_plates_only_Dynamic_Platecount__VendorActivity_25">Twentyfive Plates</string>
+    <string name="twentysix_plates_only_Dynamic_Platecount__VendorActivity_26">Twentysix Plates</string>
+    <string name="twentyseven_plates_only_Dynamic_Platecount__VendorActivity_27">Twentyseven Plates</string>
+    <string name="twentyeight_plates_only_Dynamic_Platecount__VendorActivity_28">Twentyeight Plates</string>
+    <string name="twentynine_plates_only_Dynamic_Platecount__VendorActivity_29">Twetynine Plates</string>
+    <string name="thirty_plates_only_Dynamic_Platecount__VendorActivity_30">Thirty Plates</string>
+    <string name="id_no_display_Vendor_Activity">Id No</string>
+    <string name="clearall">ClearAll</string>
+    <string name="One">1</string>
+    <string name="AddorRemovebutton">Items</string>
+
+    <string-array name="AorR">
+        <item>Update Items</item>
+    </string-array>
+
+
+    <string-array name="DefaultDrinknumber">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+    </string-array>
+
+    <string-array name="OneDrinknumber">
+        <item>One Plate</item>
+    </string-array>
+
+
+    <string-array name="TwoDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+    </string-array>
+
+
+    <string-array name="ThreeDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+    </string-array>
+
+    <string-array name="FourDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+    </string-array>
+
+
+    <string-array name="FiveDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+    </string-array>
+
+
+    <string-array name="SixDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+    </string-array>
+
+
+    <string-array name="SevenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+    </string-array>
+
+
+    <string-array name="EightDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+    </string-array>
+
+
+    <string-array name="NineDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+    </string-array>
+
+
+    <string-array name="TenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+    </string-array>
+
+
+    <string-array name="ElevenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+    </string-array>
+
+
+    <string-array name="TwelveDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+    </string-array>
+
+
+    <string-array name="ThirteenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+    </string-array>
+
+
+    <string-array name="FourteenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+    </string-array>
+
+    <string-array name="FifteenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+    </string-array>
+
+
+    <string-array name="SixteenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+    </string-array>
+
+    <string-array name="SeventeenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+    </string-array>
+
+
+    <string-array name="EighteenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+    </string-array>
+
+    <string-array name="NineteenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+    </string-array>
+
+    <string-array name="TwentyDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+    </string-array>
+
+    <string-array name="TwentyOneDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+    </string-array>
+
+    <string-array name="TwentyTwoDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+    </string-array>
+
+    <string-array name="TwentyThreeDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+    </string-array>
+
+    <string-array name="TwentyFourDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+        <item>TwentyFour Drinks</item>
+    </string-array>
+
+
+    <string-array name="TwentyFiveDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+        <item>TwentyFour Drinks</item>
+        <item>TwentyFive Drinks</item>
+    </string-array>
+
+    <string-array name="TwentySixDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+        <item>TwentyFour Drinks</item>
+        <item>TwentyFive Drinks</item>
+        <item>TwentySix Drinks</item>
+    </string-array>
+
+    <string-array name="TwentySevenDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+        <item>TwentyFour Drinks</item>
+        <item>TwentyFive Drinks</item>
+        <item>TwentySix Drinks</item>
+        <item>TwentySeven Drinks</item>
+    </string-array>
+
+
+    <string-array name="TwentyEightDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+        <item>TwentyFour Drinks</item>
+        <item>TwentyFive Drinks</item>
+        <item>TwentySix Drinks</item>
+        <item>TwentySeven Drinks</item>
+        <item>TwentyEight Drinks</item>
+    </string-array>
+
+
+    <string-array name="TwentyNineDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+        <item>TwentyFour Drinks</item>
+        <item>TwentyFive Drinks</item>
+        <item>TwentySix Drinks</item>
+        <item>TwentySeven Drinks</item>
+        <item>TwentyEight Drinks</item>
+        <item>TwentyNine Drinks</item>
+    </string-array>
+
+
+    <string-array name="ThirtyDrinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+        <item>Six Drinks</item>
+        <item>Seven Drinks</item>
+        <item>Eight Drinks</item>
+        <item>Nine Drinks</item>
+        <item>Ten Drinks</item>
+        <item>Eleven Drinks</item>
+        <item>Twelve Drinks</item>
+        <item>Thirteen Drinks</item>
+        <item>Fourteen Drinks</item>
+        <item>Fifteen Drinks</item>
+        <item>Sixteen Drinks</item>
+        <item>Seventeen Drinks</item>
+        <item>Eighteen Drinks</item>
+        <item>Nineteen Drinks</item>
+        <item>Twenty Drinks</item>
+        <item>TwentyOne Drinks</item>
+        <item>TwentyTwo Drinks</item>
+        <item>TwentyThree Drinks</item>
+        <item>TwentyFour Drinks</item>
+        <item>TwentyFive Drinks</item>
+        <item>TwentySix Drinks</item>
+        <item>TwentySeven Drinks</item>
+        <item>TwentyEight Drinks</item>
+        <item>TwentyNine Drinks</item>
+        <item>Thirty Drinks</item>
+    </string-array>
+
+    <string-array name="Drinknumbers">
+        <item>One Plate</item>
+        <item>Two Drinks</item>
+        <item>Three Drinks</item>
+        <item>Four Drinks</item>
+        <item>Five Drinks</item>
+    </string-array>
+
+
+    <string-array name="Can_Mirinda">
+        <item>750 NAIRA C.MIRINDA(5)</item>
+        <item>900 NAIRA C.MIRINDA(6)</item>
+        <item>1050 NAIRA C.MIRINDA(7)</item>
+        <item>1200 NAIRA C.MIRINDA(8)</item>
+        <item>1350 NAIRA C.MIRINDA(9)</item>
+        <item>1500 NAIRA C.MIRINDA(10)</item>
+        <item>1650 NAIRA C.MIRINDA(11)</item>
+        <item>1800 NAIRA C.MIRINDA(12)</item>
+        <item>1950 NAIRA C.MIRINDA(13)</item>
+        <item>2100 NAIRA C.MIRINDA(14)</item>
+        <item>2250 NAIRA C.MIRINDA(15)</item>
+        <item>2400 NAIRA C.MIRINDA(16)</item>
+        <item>2550 NAIRA C.MIRINDA(17)</item>
+        <item>2700 NAIRA C.MIRINDA(18)</item>
+        <item>2850 NAIRA C.MIRINDA(19)</item>
+        <item>3000 NAIRA C.MIRINDA(20)</item>
+    </string-array>
+
+    <string-array name="Glass_Mirinda">
+        <item>400 NAIRA G.MIRINDA(5)</item>
+        <item>480 NAIRA G.MIRINDA(6)</item>
+        <item>560 NAIRA G.MIRINDA(7)</item>
+        <item>640 NAIRA G.MIRINDA(8)</item>
+        <item>720 NAIRA G.MIRINDA(9)</item>
+        <item>800 NAIRA G.MIRINDA(10)</item>
+        <item>880 NAIRA G.MIRINDA(11)</item>
+        <item>960 NAIRA G.MIRINDA(12)</item>
+        <item>1040 NAIRA G.MIRINDA(13)</item>
+        <item>1120 NAIRA G.MIRINDA(14)</item>
+        <item>1200 NAIRA G.MIRINDA(15)</item>
+        <item>1280 NAIRA G.MIRINDA(16)</item>
+        <item>1360 NAIRA G.MIRINDA(17)</item>
+        <item>1440 NAIRA G.MIRINDA(18)</item>
+        <item>1520 NAIRA G.MIRINDA(19)</item>
+        <item>1600 NAIRA G.MIRINDA(20)</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1" android:title="One"/>
+    <item android:id="@+id/item2" android:title="Onew"/>
+
+
+    <group android:id="@+id/Can_Mirinda">
+        <item android:id="@+id/five_can_mirinda" android:title="750 NAIRA C.MIRINDA(5)"/>
+        <item android:id="@+id/six_can_mirinda" android:title="900 NAIRA C.MIRINDA(6)"/>
+        <item android:id="@+id/seven_can_mirinda" android:title="1050 NAIRA C.MIRINDA(7)"/>
+        <item android:id="@+id/eight_can_mirinda" android:title="1200 NAIRA C.MIRINDA(8)"/>
+        <item android:id="@+id/nine_can_mirinda" android:title="1350 NAIRA C.MIRINDA(9)"/>
+        <item android:id="@+id/ten_can_mirinda" android:title="1500 NAIRA C.MIRINDA(10)"/>
+        <item android:id="@+id/eleven_can_mirinda" android:title="1650 NAIRA C.MIRINDA(11)"/>
+        <item android:id="@+id/twelve_can_mirinda" android:title="1800 NAIRA C.MIRINDA(12)"/>
+        <item android:id="@+id/thirteen_can_mirinda" android:title="1950 NAIRA C.MIRINDA(13)"/>
+        <item android:id="@+id/fourteen_can_mirinda" android:title="2100 NAIRA C.MIRINDA(14)"/>
+        <item android:id="@+id/fifteen_can_mirinda" android:title="2250 NAIRA C.MIRINDA(15)"/>
+        <item android:id="@+id/sixteen_can_mirinda" android:title="2400 NAIRA C.MIRINDA(16)"/>
+        <item android:id="@+id/seventeen_can_mirinda" android:title="2550 NAIRA C.MIRINDA(17)"/>
+        <item android:id="@+id/eighteen_can_mirinda" android:title="2700 NAIRA C.MIRINDA(18)"/>
+        <item android:id="@+id/nineteen_can_mirinda" android:title="2850 NAIRA C.MIRINDA(19)"/>
+        <item android:id="@+id/twenty_can_mirinda" android:title="3000 NAIRA C.MIRINDA(20)"/>
+    </group>
+
+    <group android:id="@+id/Glass_Mirinda">
+        <item android:id="@+id/five_glass_mirinda" android:title="400 NAIRA G.MIRINDA(5)"/>
+        <item android:id="@+id/six_glass_mirinda" android:title="480 NAIRA G.MIRINDA(6)"/>
+        <item android:id="@+id/seven_glass_mirinda" android:title="560 NAIRA G.MIRINDA(7)"/>
+        <item android:id="@+id/eight_glass_mirinda" android:title="640 NAIRA G.MIRINDA(8)"/>
+        <item android:id="@+id/nine_glass_mirinda" android:title="720 NAIRA G.MIRINDA(9)"/>
+        <item android:id="@+id/ten_glass_mirinda" android:title="800 NAIRA G.MIRINDA(10)"/>
+        <item android:id="@+id/eleven_glass_mirinda" android:title="880 NAIRA G.MIRINDA(11)"/>
+        <item android:id="@+id/twelve_glass_mirinda" android:title="960 NAIRA G.MIRINDA(12)"/>
+        <item android:id="@+id/thirteen_glass_mirinda" android:title="1040 NAIRA G.MIRINDA(13)"/>
+        <item android:id="@+id/fourteen_glass_mirinda" android:title="1120 NAIRA G.MIRINDA(14)"/>
+        <item android:id="@+id/fifteen_glass_mirinda" android:title="1200 NAIRA G.MIRINDA(15)"/>
+        <item android:id="@+id/sixteen_glass_mirinda" android:title="1280 NAIRA G.MIRINDA(16)"/>
+        <item android:id="@+id/seventeen_glass_mirinda" android:title="1360 NAIRA G.MIRINDA(17)"/>
+        <item android:id="@+id/eighteen_glass_mirinda" android:title="1440 NAIRA G.MIRINDA(18)"/>
+        <item android:id="@+id/nineteen_glass_mirinda" android:title="1520 NAIRA G.MIRINDA(19)"/>
+        <item android:id="@+id/twenty_glass_mirinda" android:title="1600 NAIRA G.MIRINDA(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Mirinda">
+        <item android:id="@+id/five_pet_mirinda" android:title="500 NAIRA PET MIRINDA(5)"/>
+        <item android:id="@+id/six_pet_mirinda" android:title="600 NAIRA PET MIRINDA(6)"/>
+        <item android:id="@+id/seven_pet_mirinda" android:title="700 NAIRA PET MIRINDA(7)"/>
+        <item android:id="@+id/eight_pet_mirinda" android:title="800 NAIRA PET MIRINDA(8)"/>
+        <item android:id="@+id/nine_pet_mirinda" android:title="900 NAIRA PET MIRINDA(9)"/>
+        <item android:id="@+id/ten_pet_mirinda" android:title="1000 NAIRA PET MIRINDA(10)"/>
+        <item android:id="@+id/eleven_pet_mirinda" android:title="1100 NAIRA PET MIRINDA(11)"/>
+        <item android:id="@+id/twelve_pet_mirinda" android:title="1200 NAIRA PET MIRINDA(12)"/>
+        <item android:id="@+id/thirteen_pet_mirinda" android:title="1300 NAIRA PET MIRINDA(13)"/>
+        <item android:id="@+id/fourteen_pet_mirinda" android:title="1400 NAIRA PET MIRINDA(14)"/>
+        <item android:id="@+id/fifteen_pet_mirinda" android:title="1500 NAIRA PET MIRINDA(15)"/>
+        <item android:id="@+id/sixteen_pet_mirinda" android:title="1600 NAIRA PET MIRINDA(16)"/>
+        <item android:id="@+id/seventeen_pet_mirinda" android:title="1700 NAIRA PET MIRINDA(17)"/>
+        <item android:id="@+id/eighteen_pet_mirinda" android:title="1800 NAIRA PET MIRINDA(18)"/>
+        <item android:id="@+id/nineteen_pet_mirinda" android:title="1900 NAIRA PET MIRINDA(19)"/>
+        <item android:id="@+id/twenty_pet_mirinda" android:title="2000 NAIRA PET MIRINDA(20)"/>
+    </group>
+
+    <group android:id="@+id/Can_Pepsi">
+        <item android:id="@+id/five_can_pepsi" android:title="750 NAIRA CAN PEPSI(5)"/>
+        <item android:id="@+id/six_can_pepsi" android:title="900 NAIRA CAN PEPSI(6)"/>
+        <item android:id="@+id/seven_can_pepsi" android:title="1050 NAIRA CAN PEPSI(7)"/>
+        <item android:id="@+id/eight_can_pepsi" android:title="1200 NAIRA CAN PEPSI(8)"/>
+        <item android:id="@+id/nine_can_pepsi" android:title="1350 NAIRA CAN PEPSI(9)"/>
+        <item android:id="@+id/ten_can_pepsi" android:title="1500 NAIRA CAN PEPSI(10)"/>
+        <item android:id="@+id/eleven_can_pepsi" android:title="1650 NAIRA CAN PEPSI(11)"/>
+        <item android:id="@+id/twelve_can_pepsi" android:title="1800 NAIRA CAN PEPSI(12)"/>
+        <item android:id="@+id/thirteen_can_pepsi" android:title="1950 NAIRA CAN PEPSI(13)"/>
+        <item android:id="@+id/fourteen_can_pepsi" android:title="2100 NAIRA CAN PEPSI(14)"/>
+        <item android:id="@+id/fifteen_can_pepsi" android:title="2250 NAIRA CAN PEPSI(15)"/>
+        <item android:id="@+id/sixteen_can_pepsi" android:title="2400 NAIRA CAN PEPSI(16)"/>
+        <item android:id="@+id/seventeen_can_pepsi" android:title="2550 NAIRA CAN PEPSI(17)"/>
+        <item android:id="@+id/eighteen_can_pepsi" android:title="2700 NAIRA CAN PEPSI(18)"/>
+        <item android:id="@+id/nineteen_can_pepsi" android:title="2850 NAIRA CAN PEPSI(19)"/>
+        <item android:id="@+id/twenty_can_pepsi" android:title="3000 NAIRA CAN PEPSI(20)"/>
+    </group>
+
+    <group android:id="@+id/Glass_Pepsi">
+        <item android:id="@+id/five_glass_pepsi" android:title="400 NAIRA GLASS PEPSI(5)"/>
+        <item android:id="@+id/six_glass_pepsi" android:title="480 NAIRA GLASS PEPSI(6)"/>
+        <item android:id="@+id/seven_glass_pepsi" android:title="560 NAIRA GLASS PEPSI(7)"/>
+        <item android:id="@+id/eight_glass_pepsi" android:title="640 NAIRA GLASS PEPSI(8)"/>
+        <item android:id="@+id/nine_glass_pepsi" android:title="720 NAIRA GLASS PEPSI(9)"/>
+        <item android:id="@+id/ten_glass_pepsi" android:title="800 NAIRA GLASS PEPSI(10)"/>
+        <item android:id="@+id/eleven_glass_pepsi" android:title="880 NAIRA GLASS PEPSI(11)"/>
+        <item android:id="@+id/twelve_glass_pepsi" android:title="960 NAIRA GLASS PEPSI(12)"/>
+        <item android:id="@+id/thirteen_glass_pepsi" android:title="1040 NAIRA GLASS PEPSI(13)"/>
+        <item android:id="@+id/fourteen_glass_pepsi" android:title="1120 NAIRA GLASS PEPSI(14)"/>
+        <item android:id="@+id/fifteen_glass_pepsi" android:title="1200 NAIRA GLASS PEPSI(15)"/>
+        <item android:id="@+id/sixteen_glass_pepsi" android:title="1280 NAIRA GLASS PEPSI(16)"/>
+        <item android:id="@+id/seventeen_glass_pepsi" android:title="1360 NAIRA GLASS PEPSI(17)"/>
+        <item android:id="@+id/eighteen_glass_pepsi" android:title="1440 NAIRA GLASS PEPSI(18)"/>
+        <item android:id="@+id/nineteen_glass_pepsi" android:title="1520 NAIRA GLASS PEPSI(19)"/>
+        <item android:id="@+id/twenty_glass_pepsi" android:title="1600 NAIRA GLASS PEPSI(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Pepsi">
+        <item android:id="@+id/five_pet_pepsi" android:title="500 NAIRA PET PEPSI(5)"/>
+        <item android:id="@+id/six_pet_pepsi" android:title="600 NAIRA PET PEPSI(6)"/>
+        <item android:id="@+id/seven_pet_pepsi" android:title="700 NAIRA PET PEPSI(7)"/>
+        <item android:id="@+id/eight_pet_pepsi" android:title="800 NAIRA PET PEPSI(8)"/>
+        <item android:id="@+id/nine_pet_pepsi" android:title="900 NAIRA PET PEPSI(9)"/>
+        <item android:id="@+id/ten_pet_pepsi" android:title="1000 NAIRA PET PEPSI(10)"/>
+        <item android:id="@+id/eleven_pet_pepsi" android:title="1100 NAIRA PET PEPSI(11)"/>
+        <item android:id="@+id/twelve_pet_pepsi" android:title="1200 NAIRA PET PEPSI(12)"/>
+        <item android:id="@+id/thirteen_pet_pepsi" android:title="1300 NAIRA PET PEPSI(13)"/>
+        <item android:id="@+id/fourteen_pet_pepsi" android:title="1400 NAIRA PET PEPSI(14)"/>
+        <item android:id="@+id/fifteen_pet_pepsi" android:title="1500 NAIRA PET PEPSI(15)"/>
+        <item android:id="@+id/sixteen_pet_pepsi" android:title="1600 NAIRA PET PEPSI(16)"/>
+        <item android:id="@+id/seventeen_pet_pepsi" android:title="1700 NAIRA PET PEPSI(17)"/>
+        <item android:id="@+id/eighteen_pet_pepsi" android:title="1800 NAIRA PET PEPSI(18)"/>
+        <item android:id="@+id/nineteen_pet_pepsi" android:title="1900 NAIRA PET PEPSI(19)"/>
+        <item android:id="@+id/twenty_pet_pepsi" android:title="2000 NAIRA PET PEPSI(20)"/>
+    </group>
+
+    <group android:id="@+id/Can_Savanna">
+        <item android:id="@+id/five_can_savanna" android:title="750 NAIRA C.SAVANNA(5)"/>
+        <item android:id="@+id/six_can_savanna" android:title="900 NAIRA C.SAVANNA(6)"/>
+        <item android:id="@+id/seven_can_savanna" android:title="1050 NAIRA C.SAVANNA(7)"/>
+        <item android:id="@+id/eight_can_savanna" android:title="1200 NAIRA C.SAVANNA(8)"/>
+        <item android:id="@+id/nine_can_savanna" android:title="1350 NAIRA C.SAVANNA(9)"/>
+        <item android:id="@+id/ten_can_savanna" android:title="1500 NAIRA C.SAVANNA(10)"/>
+        <item android:id="@+id/eleven_can_savanna" android:title="1650 NAIRA C.SAVANNA(11)"/>
+        <item android:id="@+id/twelve_can_savanna" android:title="1800 NAIRA C.SAVANNA(12)"/>
+        <item android:id="@+id/thirteen_can_savanna" android:title="1950 NAIRA C.SAVANNA(13)"/>
+        <item android:id="@+id/fourteen_can_savanna" android:title="2100 NAIRA C.SAVANNA(14)"/>
+        <item android:id="@+id/fifteen_can_savanna" android:title="2250 NAIRA C.SAVANNA(15)"/>
+        <item android:id="@+id/sixteen_can_savanna" android:title="2400 NAIRA C.SAVANNA(16)"/>
+        <item android:id="@+id/seventeen_can_savanna" android:title="2550 NAIRA C.SAVANNA(17)"/>
+        <item android:id="@+id/eighteen_can_savanna" android:title="2700 NAIRA C.SAVANNA(18)"/>
+        <item android:id="@+id/nineteen_can_savanna" android:title="2850 NAIRA C.SAVANNA(19)"/>
+        <item android:id="@+id/twenty_can_savanna" android:title="3000 NAIRA C.SAVANNA(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Savanna">
+        <item android:id="@+id/five_pet_savanna" android:title="500 NAIRA P.SAVANNA(5)"/>
+        <item android:id="@+id/six_pet_savanna" android:title="600 NAIRA P.SAVANNA(6)"/>
+        <item android:id="@+id/seven_pet_savanna" android:title="700 NAIRA P.SAVANNA(7)"/>
+        <item android:id="@+id/eight_pet_savanna" android:title="800 NAIRA P.SAVANNA(8)"/>
+        <item android:id="@+id/nine_pet_savanna" android:title="900 NAIRA P.SAVANNA(9)"/>
+        <item android:id="@+id/ten_pet_savanna" android:title="1000 NAIRA P.SAVANNA(10)"/>
+        <item android:id="@+id/eleven_pet_savanna" android:title="1100 NAIRA P.SAVANNA(11)"/>
+        <item android:id="@+id/twelve_pet_savanna" android:title="1200 NAIRA P.SAVANNA(12)"/>
+        <item android:id="@+id/thirteen_pet_savanna" android:title="1300 NAIRA P.SAVANNA(13)"/>
+        <item android:id="@+id/fourteen_pet_savanna" android:title="1400 NAIRA P.SAVANNA(14)"/>
+        <item android:id="@+id/fifteen_pet_savanna" android:title="1500 NAIRA P.SAVANNA(15)"/>
+        <item android:id="@+id/sixteen_pet_savanna" android:title="1600 NAIRA P.SAVANNA(16)"/>
+        <item android:id="@+id/seventeen_pet_savanna" android:title="1700 NAIRA P.SAVANNA(17)"/>
+        <item android:id="@+id/eighteen_pet_savanna" android:title="1800 NAIRA P.SAVANNA(18)"/>
+        <item android:id="@+id/nineteen_pet_savanna" android:title="1900 NAIRA P.SAVANNA(19)"/>
+        <item android:id="@+id/twenty_pet_savanna" android:title="2000 NAIRA P.SAVANNA(20)"/>
+    </group>
+
+    <group android:id="@+id/Can_SevenUp">
+        <item android:id="@+id/five_can_sevenup" android:title="750 NAIRA C.SEVENUP(5)"/>
+        <item android:id="@+id/six_can_sevenup" android:title="900 NAIRA C.SEVENUP(6)"/>
+        <item android:id="@+id/seven_can_sevenup" android:title="1050 NAIRA C.SEVENUP(7)"/>
+        <item android:id="@+id/eight_can_sevenup" android:title="1200 NAIRA C.SEVENUP(8)"/>
+        <item android:id="@+id/nine_can_sevenup" android:title="1350 NAIRA C.SEVENUP(9)"/>
+        <item android:id="@+id/ten_can_sevenup" android:title="1500 NAIRA C.SEVENUP(10)"/>
+        <item android:id="@+id/eleven_can_sevenup" android:title="1650 NAIRA C.SEVENUP(11)"/>
+        <item android:id="@+id/twelve_can_sevenup" android:title="1800 NAIRA C.SEVENUP(12)"/>
+        <item android:id="@+id/thirteen_can_sevenup" android:title="1950 NAIRA C.SEVENUP(13)"/>
+        <item android:id="@+id/fourteen_can_sevenup" android:title="2100 NAIRA C.SEVENUP(14)"/>
+        <item android:id="@+id/fifteen_can_sevenup" android:title="2250 NAIRA C.SEVENUP(15)"/>
+        <item android:id="@+id/sixteen_can_sevenup" android:title="2400 NAIRA C.SEVENUP(16)"/>
+        <item android:id="@+id/seventeen_can_sevenup" android:title="2550 NAIRA C.SEVENUP(17)"/>
+        <item android:id="@+id/eighteen_can_sevenup" android:title="2700 NAIRA C.SEVENUP(18)"/>
+        <item android:id="@+id/nineteen_can_sevenup" android:title="2850 NAIRA C.SEVENUP(19)"/>
+        <item android:id="@+id/twenty_can_sevenup" android:title="3000 NAIRA C.SEVENUP(20)"/>
+    </group>
+
+    <group android:id="@+id/Glass_SevenUp">
+        <item android:id="@+id/five_glass_sevenup" android:title="400 NAIRA G.SEVENUP(5)"/>
+        <item android:id="@+id/six_glass_sevenup" android:title="480 NAIRA G.SEVENUP(6)"/>
+        <item android:id="@+id/seven_glass_sevenup" android:title="560 NAIRA G.SEVENUP(7)"/>
+        <item android:id="@+id/eight_glass_sevenup" android:title="640 NAIRA G.SEVENUP(8)"/>
+        <item android:id="@+id/nine_glass_sevenup" android:title="720 NAIRA G.SEVENUP(9)"/>
+        <item android:id="@+id/ten_glass_sevenup" android:title="800 NAIRA G.SEVENUP(10)"/>
+        <item android:id="@+id/eleven_glass_sevenup" android:title="880 NAIRA G.SEVENUP(11)"/>
+        <item android:id="@+id/twelve_glass_sevenup" android:title="960 NAIRA G.SEVENUP(12)"/>
+        <item android:id="@+id/thirteen_glass_sevenup" android:title="1040 NAIRA G.SEVENUP(13)"/>
+        <item android:id="@+id/fourteen_glass_sevenup" android:title="1120 NAIRA G.SEVENUP(14)"/>
+        <item android:id="@+id/fifteen_glass_sevenup" android:title="1200 NAIRA G.SEVENUP(15)"/>
+        <item android:id="@+id/sixteen_glass_sevenup" android:title="1280 NAIRA G.SEVENUP(16)"/>
+        <item android:id="@+id/seventeen_glass_sevenup" android:title="1360 NAIRA G.SEVENUP(17)"/>
+        <item android:id="@+id/eighteen_glass_sevenup" android:title="1440 NAIRA G.SEVENUP(18)"/>
+        <item android:id="@+id/nineteen_glass_sevenup" android:title="1520 NAIRA G.SEVENUP(19)"/>
+        <item android:id="@+id/twenty_glass_sevenup" android:title="1600 NAIRA G.SEVENUP(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_SevenUp">
+        <item android:id="@+id/five_pet_sevenup" android:title="500 NAIRA P.SEVENUP(5)"/>
+        <item android:id="@+id/six_pet_sevenup" android:title="600 NAIRA P.SEVENUP(6)"/>
+        <item android:id="@+id/seven_pet_sevenup" android:title="700 NAIRA P.SEVENUP(7)"/>
+        <item android:id="@+id/eight_pet_sevenup" android:title="800 NAIRA P.SEVENUP(8)"/>
+        <item android:id="@+id/nine_pet_sevenup" android:title="900 NAIRA P.SEVENUP(9)"/>
+        <item android:id="@+id/ten_pet_sevenup" android:title="1000 NAIRA P.SEVENUP(10)"/>
+        <item android:id="@+id/eleven_pet_sevenup" android:title="1100 NAIRA P.SEVENUP(11)"/>
+        <item android:id="@+id/twelve_pet_sevenup" android:title="1200 NAIRA P.SEVENUP(12)"/>
+        <item android:id="@+id/thirteen_pet_sevenup" android:title="1300 NAIRA P.SEVENUP(13)"/>
+        <item android:id="@+id/fourteen_pet_sevenup" android:title="1400 NAIRA P.SEVENUP(14)"/>
+        <item android:id="@+id/fifteen_pet_sevenup" android:title="1500 NAIRA P.SEVENUP(15)"/>
+        <item android:id="@+id/sixteen_pet_sevenup" android:title="1600 NAIRA P.SEVENUP(16)"/>
+        <item android:id="@+id/seventeen_pet_sevenup" android:title="1700 NAIRA P.SEVENUP(17)"/>
+        <item android:id="@+id/eighteen_pet_sevenup" android:title="1800 NAIRA P.SEVENUP(18)"/>
+        <item android:id="@+id/nineteen_pet_sevenup" android:title="1900 NAIRA P.SEVENUP(19)"/>
+        <item android:id="@+id/twenty_pet_sevenup" android:title="2000 NAIRA P.SEVENUP(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_Glass_Sprite">
+        <item android:id="@+id/five_small_glass_sprite" android:title="400 NAIRA SMALL G.SPRITE(5)"/>
+        <item android:id="@+id/six_small_glass_sprite" android:title="480 NAIRA SMALL G.SPRITE(6)"/>
+        <item android:id="@+id/seven_small_glass_sprite" android:title="560 NAIRA SMALL G.SPRITE(7)"/>
+        <item android:id="@+id/eight_small_glass_sprite" android:title="640 NAIRA SMALL G.SPRITE(8)"/>
+        <item android:id="@+id/nine_small_glass_sprite" android:title="720 NAIRA SMALL G.SPRITE(9)"/>
+        <item android:id="@+id/ten_small_glass_sprite" android:title="800 NAIRA SMALL G.SPRITE(10)"/>
+        <item android:id="@+id/eleven_small_glass_sprite" android:title="880 NAIRA SMALL G.SPRITE(11)"/>
+        <item android:id="@+id/twelve_small_glass_sprite" android:title="960 NAIRA SMALL G.SPRITE(12)"/>
+        <item android:id="@+id/thirteen_small_glass_sprite" android:title="1040 NAIRA SMALL G.SPRITE(13)"/>
+        <item android:id="@+id/fourteen_small_glass_sprite" android:title="1120 NAIRA SMALL G.SPRITE(14)"/>
+        <item android:id="@+id/fifteen_small_glass_sprite" android:title="1200 NAIRA SMALL G.SPRITE(15)"/>
+        <item android:id="@+id/sixteen_small_glass_sprite" android:title="1280 NAIRA SMALL G.SPRITE(16)"/>
+        <item android:id="@+id/seventeen_small_glass_sprite" android:title="1360 NAIRA SMALL G.SPRITE(17)"/>
+        <item android:id="@+id/eighteen_small_glass_sprite" android:title="1440 NAIRA SMALL G.SPRITE(18)"/>
+        <item android:id="@+id/nineteen_small_glass_sprite" android:title="1520 NAIRA SMALL G.SPRITE(19)"/>
+        <item android:id="@+id/twenty_small_glass_sprite" android:title="1600 NAIRA SMALL G.SPRITE(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_Glass_Sprite">
+        <item android:id="@+id/five_big_glass_sprite" android:title="500 NAIRA BIG G.SPRITE(5)"/>
+        <item android:id="@+id/six_big_glass_sprite" android:title="600 NAIRA BIG G.SPRITE(6)"/>
+        <item android:id="@+id/seven_big_glass_sprite" android:title="700 NAIRA BIG G.SPRITE(7)"/>
+        <item android:id="@+id/eight_big_glass_sprite" android:title="800 NAIRA BIG G.SPRITE(8)"/>
+        <item android:id="@+id/nine_big_glass_sprite" android:title="900 NAIRA BIG G.SPRITE(9)"/>
+        <item android:id="@+id/ten_big_glass_sprite" android:title="1000 NAIRA BIG G.SPRITE(10)"/>
+        <item android:id="@+id/eleven_big_glass_sprite" android:title="1100 NAIRA BIG G.SPRITE(11)"/>
+        <item android:id="@+id/twelve_big_glass_sprite" android:title="1200 NAIRA BIG G.SPRITE(12)"/>
+        <item android:id="@+id/thirteen_big_glass_sprite" android:title="1300 NAIRA BIG G.SPRITE(13)"/>
+        <item android:id="@+id/fourteen_big_glass_sprite" android:title="1400 NAIRA BIG G.SPRITE(14)"/>
+        <item android:id="@+id/fifteen_big_glass_sprite" android:title="1500 NAIRA BIG G.SPRITE(15)"/>
+        <item android:id="@+id/sixteen_big_glass_sprite" android:title="1600 NAIRA BIG G.SPRITE(16)"/>
+        <item android:id="@+id/seventeen_big_glass_sprite" android:title="1700 NAIRA BIG G.SPRITE(17)"/>
+        <item android:id="@+id/eighteen_big_glass_sprite" android:title="1800 NAIRA BIG G.SPRITE(18)"/>
+        <item android:id="@+id/nineteen_big_glass_sprite" android:title="1900 NAIRA BIG G.SPRITE(19)"/>
+        <item android:id="@+id/twenty_big_glass_sprite" android:title="2000 NAIRA BIG G.SPRITE(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Sprite">
+        <item android:id="@+id/five_pet_sprite" android:title="500 NAIRA PET SPRITE(5)"/>
+        <item android:id="@+id/six_pet_sprite" android:title="600 NAIRA PET SPRITE(6)"/>
+        <item android:id="@+id/seven_pet_sprite" android:title="700 NAIRA PET SPRITE(7)"/>
+        <item android:id="@+id/eight_pet_sprite" android:title="800 NAIRA PET SPRITE(8)"/>
+        <item android:id="@+id/nine_pet_sprite" android:title="900 NAIRA PET SPRITE(9)"/>
+        <item android:id="@+id/ten_pet_sprite" android:title="1000 NAIRA PET SPRITE(10)"/>
+        <item android:id="@+id/eleven_pet_sprite" android:title="1100 NAIRA PET SPRITE(11)"/>
+        <item android:id="@+id/twelve_pet_sprite" android:title="1200 NAIRA PET SPRITE(12)"/>
+        <item android:id="@+id/thirteen_pet_sprite" android:title="1300 NAIRA PET SPRITE(13)"/>
+        <item android:id="@+id/fourteen_pet_sprite" android:title="1400 NAIRA PET SPRITE(14)"/>
+        <item android:id="@+id/fifteen_pet_sprite" android:title="1500 NAIRA PET SPRITE(15)"/>
+        <item android:id="@+id/sixteen_pet_sprite" android:title="1600 NAIRA PET SPRITE(16)"/>
+        <item android:id="@+id/seventeen_pet_sprite" android:title="1700 NAIRA PET SPRITE(17)"/>
+        <item android:id="@+id/eighteen_pet_sprite" android:title="1800 NAIRA PET SPRITE(18)"/>
+        <item android:id="@+id/nineteen_pet_sprite" android:title="1900 NAIRA PET SPRITE(19)"/>
+        <item android:id="@+id/twenty_pet_sprite" android:title="2000 NAIRA PET SPRITE(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Teem">
+        <item android:id="@+id/five_pet_teem" android:title="500 NAIRA PET TEEM(5)"/>
+        <item android:id="@+id/six_pet_teem" android:title="600 NAIRA PET TEEM(6)"/>
+        <item android:id="@+id/seven_pet_teem" android:title="700 NAIRA PET TEEM(7)"/>
+        <item android:id="@+id/eight_pet_teem" android:title="800 NAIRA PET TEEM(8)"/>
+        <item android:id="@+id/nine_pet_teem" android:title="900 NAIRA PET TEEM(9)"/>
+        <item android:id="@+id/ten_pet_teem" android:title="1000 NAIRA PET TEEM(10)"/>
+        <item android:id="@+id/eleven_pet_teem" android:title="1100 NAIRA PET TEEM(11)"/>
+        <item android:id="@+id/twelve_pet_teem" android:title="1200 NAIRA PET TEEM(12)"/>
+        <item android:id="@+id/thirteen_pet_teem" android:title="1300 NAIRA PET TEEM(13)"/>
+        <item android:id="@+id/fourteen_pet_teem" android:title="1400 NAIRA PET TEEM(14)"/>
+        <item android:id="@+id/fifteen_pet_teem" android:title="1500 NAIRA PET TEEM(15)"/>
+        <item android:id="@+id/sixteen_pet_teem" android:title="1600 NAIRA PET TEEM(16)"/>
+        <item android:id="@+id/seventeen_pet_teem" android:title="1700 NAIRA PET TEEM(17)"/>
+        <item android:id="@+id/eighteen_pet_teem" android:title="1800 NAIRA PET TEEM(18)"/>
+        <item android:id="@+id/nineteen_pet_teem" android:title="1900 NAIRA PET TEEM(19)"/>
+        <item android:id="@+id/twenty_pet_teem" android:title="2000 NAIRA PET TEEM(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Lacasera">
+        <item android:id="@+id/five_pet_lacasera" android:title="500 NAIRA PET LACASERA(5)"/>
+        <item android:id="@+id/six_pet_lacasera" android:title="600 NAIRA PET LACASERA(6)"/>
+        <item android:id="@+id/seven_pet_lacasera" android:title="700 NAIRA PET LACASERA(7)"/>
+        <item android:id="@+id/eight_pet_lacasera" android:title="800 NAIRA PET LACASERA(8)"/>
+        <item android:id="@+id/nine_pet_lacasera" android:title="900 NAIRA PET LACASERA(9)"/>
+        <item android:id="@+id/ten_pet_lacasera" android:title="1000 NAIRA PET LACASERA(10)"/>
+        <item android:id="@+id/eleven_pet_lacasera" android:title="1100 NAIRA PET LACASERA(11)"/>
+        <item android:id="@+id/twelve_pet_lacasera" android:title="1200 NAIRA PET LACASERA(12)"/>
+        <item android:id="@+id/thirteen_pet_lacasera" android:title="1300 NAIRA PET LACASERA(13)"/>
+        <item android:id="@+id/fourteen_pet_lacasera" android:title="1400 NAIRA PET LACASERA(14)"/>
+        <item android:id="@+id/fifteen_pet_lacasera" android:title="1500 NAIRA PET LACASERA(15)"/>
+        <item android:id="@+id/sixteen_pet_lacasera" android:title="1600 NAIRA PET LACASERA(16)"/>
+        <item android:id="@+id/seventeen_pet_lacasera" android:title="1700 NAIRA PET LACASERA(17)"/>
+        <item android:id="@+id/eighteen_pet_lacasera" android:title="1800 NAIRA PET LACASERA(18)"/>
+        <item android:id="@+id/nineteen_pet_lacasera" android:title="1900 NAIRA PET LACASERA(19)"/>
+        <item android:id="@+id/twenty_pet_lacasera" android:title="2000 NAIRA PET LACASERA(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Smoov">
+        <item android:id="@+id/five_pet_smoov" android:title="750 NAIRA PET SMOOV(5)"/>
+        <item android:id="@+id/six_pet_smoov" android:title="900 NAIRA PET SMOOV(6)"/>
+        <item android:id="@+id/seven_pet_smoov" android:title="1050 NAIRA PET SMOOV(7)"/>
+        <item android:id="@+id/eight_pet_smoov" android:title="1200 NAIRA PET SMOOV(8)"/>
+        <item android:id="@+id/nine_pet_smoov" android:title="1350 NAIRA PET SMOOV(9)"/>
+        <item android:id="@+id/ten_pet_smoov" android:title="1500 NAIRA PET SMOOV(10)"/>
+        <item android:id="@+id/eleven_pet_smoov" android:title="1650 NAIRA PET SMOOV(11)"/>
+        <item android:id="@+id/twelve_pet_smoov" android:title="1800 NAIRA PET SMOOV(12)"/>
+        <item android:id="@+id/thirteen_pet_smoov" android:title="1950 NAIRA PET SMOOV(13)"/>
+        <item android:id="@+id/fourteen_pet_smoov" android:title="2100 NAIRA PET SMOOV(14)"/>
+        <item android:id="@+id/fifteen_pet_smoov" android:title="2250 NAIRA PET SMOOV(15)"/>
+        <item android:id="@+id/sixteen_pet_smoov" android:title="2400 NAIRA PET SMOOV(16)"/>
+        <item android:id="@+id/seventeen_pet_smoov" android:title="2550 NAIRA PET SMOOV(17)"/>
+        <item android:id="@+id/eighteen_pet_smoov" android:title="2700 NAIRA PET SMOOV(18)"/>
+        <item android:id="@+id/nineteen_pet_smoov" android:title="2850 NAIRA PET SMOOV(19)"/>
+        <item android:id="@+id/twenty_pet_smoov" android:title="3000 NAIRA PET SMOOV(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_Glass_Coke">
+        <item android:id="@+id/five_small_glass_coke" android:title="400 NAIRA SMALL G.COKE(5)"/>
+        <item android:id="@+id/six_small_glass_coke" android:title="480 NAIRA SMALL G.COKE(6)"/>
+        <item android:id="@+id/seven_small_glass_coke" android:title="560 NAIRA SMALL G.COKE(7)"/>
+        <item android:id="@+id/eight_small_glass_coke" android:title="640 NAIRA SMALL G.COKE(8)"/>
+        <item android:id="@+id/nine_small_glass_coke" android:title="720 NAIRA SMALL G.COKE(9)"/>
+        <item android:id="@+id/ten_small_glass_coke" android:title="800 NAIRA SMALL G.COKE(10)"/>
+        <item android:id="@+id/eleven_small_glass_coke" android:title="880 NAIRA SMALL G.COKE(11)"/>
+        <item android:id="@+id/twelve_small_glass_coke" android:title="960 NAIRA SMALL G.COKE(12)"/>
+        <item android:id="@+id/thirteen_small_glass_coke" android:title="1040 NAIRA SMALL G.COKE(13)"/>
+        <item android:id="@+id/fourteen_small_glass_coke" android:title="1120 NAIRA SMALL G.COKE(14)"/>
+        <item android:id="@+id/fifteen_small_glass_coke" android:title="1200 NAIRA SMALL G.COKE(15)"/>
+        <item android:id="@+id/sixteen_small_glass_coke" android:title="1280 NAIRA SMALL G.COKE(16)"/>
+        <item android:id="@+id/seventeen_small_glass_coke" android:title="1360 NAIRA SMALL G.COKE(17)"/>
+        <item android:id="@+id/eighteen_small_glass_coke" android:title="1440 NAIRA SMALL G.COKE(18)"/>
+        <item android:id="@+id/nineteen_small_glass_coke" android:title="1520 NAIRA SMALL G.COKE(19)"/>
+        <item android:id="@+id/twenty_small_glass_coke" android:title="1600 NAIRA SMALL G.COKE(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_Pet_Coke">
+        <item android:id="@+id/five_big_pet_coke" android:title="750 NAIRA BIG PET COKE(5)"/>
+        <item android:id="@+id/six_big_pet_coke" android:title="900 NAIRA BIG PET COKE(6)"/>
+        <item android:id="@+id/seven_big_pet_coke" android:title="1050 NAIRA BIG PET COKE(7)"/>
+        <item android:id="@+id/eight_big_pet_coke" android:title="1200 NAIRA BIG PET COKE(8)"/>
+        <item android:id="@+id/nine_big_pet_coke" android:title="1350 NAIRA BIG PET COKE(9)"/>
+        <item android:id="@+id/ten_big_pet_coke" android:title="1500 NAIRA BIG PET COKE(10)"/>
+        <item android:id="@+id/eleven_big_pet_coke" android:title="1650 NAIRA BIG PET COKE(11)"/>
+        <item android:id="@+id/twelve_big_pet_coke" android:title="1800 NAIRA BIG PET COKE(12)"/>
+        <item android:id="@+id/thirteen_big_pet_coke" android:title="1950 NAIRA BIG PET COKE(13)"/>
+        <item android:id="@+id/fourteen_big_pet_coke" android:title="2100 NAIRA BIG PET COKE(14)"/>
+        <item android:id="@+id/fifteen_big_pet_coke" android:title="2250 NAIRA BIG PET COKE(15)"/>
+        <item android:id="@+id/sixteen_big_pet_coke" android:title="2400 NAIRA BIG PET COKE(16)"/>
+        <item android:id="@+id/seventeen_big_pet_coke" android:title="2550 NAIRA BIG PET COKE(17)"/>
+        <item android:id="@+id/eighteen_big_pet_coke" android:title="2700 NAIRA BIG PET COKE(18)"/>
+        <item android:id="@+id/nineteen_big_pet_coke" android:title="2850 NAIRA BIG PET COKE(19)"/>
+        <item android:id="@+id/twenty_big_pet_coke" android:title="3000 NAIRA BIG PET COKE(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_Pet_Coke">
+        <item android:id="@+id/five_small_pet_coke" android:title="500 NAIRA SMALL PET COKE(5)"/>
+        <item android:id="@+id/six_small_pet_coke" android:title="600 NAIRA SMALL PET COKE(6)"/>
+        <item android:id="@+id/seven_small_pet_coke" android:title="700 NAIRA SMALL PET COKE(7)"/>
+        <item android:id="@+id/eight_small_pet_coke" android:title="800 NAIRA SMALL PET COKE(8)"/>
+        <item android:id="@+id/nine_small_pet_coke" android:title="900 NAIRA SMALL PET COKE(9)"/>
+        <item android:id="@+id/ten_small_pet_coke" android:title="1000 NAIRA SMALL PET COKE(10)"/>
+        <item android:id="@+id/eleven_small_pet_coke" android:title="1100 NAIRA SMALL PET COKE(11)"/>
+        <item android:id="@+id/twelve_small_pet_coke" android:title="1200 NAIRA SMALL PET COKE(12)"/>
+        <item android:id="@+id/thirteen_small_pet_coke" android:title="1300 NAIRA SMALL PET COKE(13)"/>
+        <item android:id="@+id/fourteen_small_pet_coke" android:title="1400 NAIRA SMALL PET COKE(14)"/>
+        <item android:id="@+id/fifteen_small_pet_coke" android:title="1500 NAIRA SMALL PET COKE(15)"/>
+        <item android:id="@+id/sixteen_small_pet_coke" android:title="1600 NAIRA SMALL PET COKE(16)"/>
+        <item android:id="@+id/seventeen_small_pet_coke" android:title="1700 NAIRA SMALL PET COKE(17)"/>
+        <item android:id="@+id/eighteen_small_pet_coke" android:title="1800 NAIRA SMALL PET COKE(18)"/>
+        <item android:id="@+id/nineteen_small_pet_coke" android:title="1900 NAIRA SMALL PET COKE(19)"/>
+        <item android:id="@+id/twenty_small_pet_coke" android:title="2000 NAIRA SMALL PET COKE(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_Glass_Coke">
+        <item android:id="@+id/five_big_glass_coke" android:title="500 NAIRA BIG G.COKE(5)"/>
+        <item android:id="@+id/six_big_glass_coke" android:title="600 NAIRA BIG G.COKE(6)"/>
+        <item android:id="@+id/seven_big_glass_coke" android:title="700 NAIRA BIG G.COKE(7)"/>
+        <item android:id="@+id/eight_big_glass_coke" android:title="800 NAIRA BIG G.COKE(8)"/>
+        <item android:id="@+id/nine_big_glass_coke" android:title="900 NAIRA BIG G.COKE(9)"/>
+        <item android:id="@+id/ten_big_glass_coke" android:title="1000 NAIRA BIG G.COKE(10)"/>
+        <item android:id="@+id/eleven_big_glass_coke" android:title="1100 NAIRA BIG G.COKE(11)"/>
+        <item android:id="@+id/twelve_big_glass_coke" android:title="1200 NAIRA BIG G.COKE(12)"/>
+        <item android:id="@+id/thirteen_big_glass_coke" android:title="1300 NAIRA BIG G.COKE(13)"/>
+        <item android:id="@+id/fourteen_big_glass_coke" android:title="1400 NAIRA BIG G.COKE(14)"/>
+        <item android:id="@+id/fifteen_big_glass_coke" android:title="1500 NAIRA BIG G.COKE(15)"/>
+        <item android:id="@+id/sixteen_big_glass_coke" android:title="1600 NAIRA BIG G.COKE(16)"/>
+        <item android:id="@+id/seventeen_big_glass_coke" android:title="1700 NAIRA BIG G.COKE(17)"/>
+        <item android:id="@+id/eighteen_big_glass_coke" android:title="1800 NAIRA BIG G.COKE(18)"/>
+        <item android:id="@+id/nineteen_big_glass_coke" android:title="1900 NAIRA BIG G.COKE(19)"/>
+        <item android:id="@+id/twenty_big_glass_coke" android:title="2000 NAIRA BIG G.COKE(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_Glass_Fanta">
+        <item android:id="@+id/five_small_glass_fanta" android:title="400 NAIRA SMALL G.FANTA(5)"/>
+        <item android:id="@+id/six_small_glass_fanta" android:title="480 NAIRA SMALL G.FANTA(6)"/>
+        <item android:id="@+id/seven_small_glass_fanta" android:title="560 NAIRA SMALL G.FANTA(7)"/>
+        <item android:id="@+id/eight_small_glass_fanta" android:title="640 NAIRA SMALL G.FANTA(8)"/>
+        <item android:id="@+id/nine_small_glass_fanta" android:title="720 NAIRA SMALL G.FANTA(9)"/>
+        <item android:id="@+id/ten_small_glass_fanta" android:title="800 NAIRA SMALL G.FANTA(10)"/>
+        <item android:id="@+id/eleven_small_glass_fanta" android:title="880 NAIRA SMALL G.FANTA(11)"/>
+        <item android:id="@+id/twelve_small_glass_fanta" android:title="960 NAIRA SMALL G.FANTA(12)"/>
+        <item android:id="@+id/thirteen_small_glass_fanta" android:title="1040 NAIRA SMALL G.FANTA(13)"/>
+        <item android:id="@+id/fourteen_small_glass_fanta" android:title="1120 NAIRA SMALL G.FANTA(14)"/>
+        <item android:id="@+id/fifteen_small_glass_fanta" android:title="1200 NAIRA SMALL G.FANTA(15)"/>
+        <item android:id="@+id/sixteen_small_glass_fanta" android:title="1280 NAIRA SMALL G.FANTA(16)"/>
+        <item android:id="@+id/seventeen_small_glass_fanta" android:title="1360 NAIRA SMALL G.FANTA(17)"/>
+        <item android:id="@+id/eighteen_small_glass_fanta" android:title="1440 NAIRA SMALL G.FANTA(18)"/>
+        <item android:id="@+id/nineteen_small_glass_fanta" android:title="1520 NAIRA SMALL G.FANTA(19)"/>
+        <item android:id="@+id/twenty_small_glass_fanta" android:title="1600 NAIRA SMALL G.FANTA(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_Glass_Fanta">
+        <item android:id="@+id/five_big_glass_fanta" android:title="500 NAIRA BIG G.FANTA(5)"/>
+        <item android:id="@+id/six_big_glass_fanta" android:title="600 NAIRA BIG G.FANTA(6)"/>
+        <item android:id="@+id/seven_big_glass_fanta" android:title="700 NAIRA BIG G.FANTA(7)"/>
+        <item android:id="@+id/eight_big_glass_fanta" android:title="800 NAIRA BIG G.FANTA(8)"/>
+        <item android:id="@+id/nine_big_glass_fanta" android:title="900 NAIRA BIG G.FANTA(9)"/>
+        <item android:id="@+id/ten_big_glass_fanta" android:title="1000 NAIRA BIG G.FANTA(10)"/>
+        <item android:id="@+id/eleven_big_glass_fanta" android:title="1100 NAIRA BIG G.FANTA(11)"/>
+        <item android:id="@+id/twelve_big_glass_fanta" android:title="1200 NAIRA BIG G.FANTA(12)"/>
+        <item android:id="@+id/thirteen_big_glass_fanta" android:title="1300 NAIRA BIG G.FANTA(13)"/>
+        <item android:id="@+id/fourteen_big_glass_fanta" android:title="1400 NAIRA BIG G.FANTA(14)"/>
+        <item android:id="@+id/fifteen_big_glass_fanta" android:title="1500 NAIRA BIG G.FANTA(15)"/>
+        <item android:id="@+id/sixteen_big_glass_fanta" android:title="1600 NAIRA BIG G.FANTA(16)"/>
+        <item android:id="@+id/seventeen_big_glass_fanta" android:title="1700 NAIRA BIG G.FANTA(17)"/>
+        <item android:id="@+id/eighteen_big_glass_fanta" android:title="1800 NAIRA BIG G.FANTA(18)"/>
+        <item android:id="@+id/nineteen_big_glass_fanta" android:title="1900 NAIRA BIG G.FANTA(19)"/>
+        <item android:id="@+id/twenty_big_glass_fanta" android:title="2000 NAIRA BIG G.FANTA(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_Pet_Fanta">
+        <item android:id="@+id/five_small_pet_fanta" android:title="500 NAIRA SMALL P.FANTA(5)"/>
+        <item android:id="@+id/six_small_pet_fanta" android:title="600 NAIRA SMALL P.FANTA(6)"/>
+        <item android:id="@+id/seven_small_pet_fanta" android:title="700 NAIRA SMALL P.FANTA(7)"/>
+        <item android:id="@+id/eight_small_pet_fanta" android:title="800 NAIRA SMALL P.FANTA(8)"/>
+        <item android:id="@+id/nine_small_pet_fanta" android:title="900 NAIRA SMALL P.FANTA(9)"/>
+        <item android:id="@+id/ten_small_pet_fanta" android:title="1000 NAIRA SMALL P.FANTA(10)"/>
+        <item android:id="@+id/eleven_small_pet_fanta" android:title="1100 NAIRA SMALL P.FANTA(11)"/>
+        <item android:id="@+id/twelve_small_pet_fanta" android:title="1200 NAIRA SMALL P.FANTA(12)"/>
+        <item android:id="@+id/thirteen_small_pet_fanta" android:title="1300 NAIRA SMALL P.FANTA(13)"/>
+        <item android:id="@+id/fourteen_small_pet_fanta" android:title="1400 NAIRA SMALL P.FANTA(14)"/>
+        <item android:id="@+id/fifteen_small_pet_fanta" android:title="1500 NAIRA SMALL P.FANTA(15)"/>
+        <item android:id="@+id/sixteen_small_pet_fanta" android:title="1600 NAIRA SMALL P.FANTA(16)"/>
+        <item android:id="@+id/seventeen_small_pet_fanta" android:title="1700 NAIRA SMALL P.FANTA(17)"/>
+        <item android:id="@+id/eighteen_small_pet_fanta" android:title="1800 NAIRA SMALL P.FANTA(18)"/>
+        <item android:id="@+id/nineteen_small_pet_fanta" android:title="1900 NAIRA SMALL P.FANTA(19)"/>
+        <item android:id="@+id/twenty_small_pet_fanta" android:title="2000 NAIRA SMALL P.FANTA(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_Pet_Fanta">
+        <item android:id="@+id/five_big_pet_fanta" android:title="750 NAIRA BIG P.FANTA(5)"/>
+        <item android:id="@+id/six_big_pet_fanta" android:title="900 NAIRA BIG P.FANTA(6)"/>
+        <item android:id="@+id/seven_big_pet_fanta" android:title="1050 NAIRA BIG P.FANTA(7)"/>
+        <item android:id="@+id/eight_big_pet_fanta" android:title="1200 NAIRA BIG P.FANTA(8)"/>
+        <item android:id="@+id/nine_big_pet_fanta" android:title="1350 NAIRA BIG P.FANTA(9)"/>
+        <item android:id="@+id/ten_big_pet_fanta" android:title="1500 NAIRA BIG P.FANTA(10)"/>
+        <item android:id="@+id/eleven_big_pet_fanta" android:title="1650 NAIRA BIG P.FANTA(11)"/>
+        <item android:id="@+id/twelve_big_pet_fanta" android:title="1800 NAIRA BIG P.FANTA(12)"/>
+        <item android:id="@+id/thirteen_big_pet_fanta" android:title="1950 NAIRA BIG P.FANTA(13)"/>
+        <item android:id="@+id/fourteen_big_pet_fanta" android:title="2100 NAIRA BIG P.FANTA(14)"/>
+        <item android:id="@+id/fifteen_big_pet_fanta" android:title="2250 NAIRA BIG P.FANTA(15)"/>
+        <item android:id="@+id/sixteen_big_pet_fanta" android:title="2400 NAIRA BIG P.FANTA(16)"/>
+        <item android:id="@+id/seventeen_big_pet_fanta" android:title="2550 NAIRA BIG P.FANTA(17)"/>
+        <item android:id="@+id/eighteen_big_pet_fanta" android:title="2700 NAIRA BIG P.FANTA(18)"/>
+        <item android:id="@+id/nineteen_big_pet_fanta" android:title="2850 NAIRA BIG P.FANTA(19)"/>
+        <item android:id="@+id/twenty_big_pet_fanta" android:title="3000 NAIRA BIG P.FANTA(20)"/>
+    </group>
+
+    <group android:id="@+id/Sachet_Water">
+        <item android:id="@+id/five_sachet_water" android:title="25 NAIRA PURE WATER(5)"/>
+        <item android:id="@+id/six_sachet_water" android:title="30 NAIRA PURE WATER(6)"/>
+        <item android:id="@+id/seven_sachet_water" android:title="35 NAIRA PURE WATER(7)"/>
+        <item android:id="@+id/eight_sachet_water" android:title="40 NAIRA PURE WATER(8)"/>
+        <item android:id="@+id/nine_sachet_water" android:title="45 NAIRA PURE WATER(9)"/>
+        <item android:id="@+id/ten_sachet_water" android:title="50 NAIRA PURE WATER(10)"/>
+        <item android:id="@+id/eleven_sachet_water" android:title="55 NAIRA PURE WATER(11)"/>
+        <item android:id="@+id/twelve_sachet_water" android:title="60 NAIRA PURE WATER12)"/>
+        <item android:id="@+id/thirteen_sachet_water" android:title="65 NAIRA PURE WATER(13)"/>
+        <item android:id="@+id/fourteen_sachet_water" android:title="70 NAIRA PURE WATER(14)"/>
+        <item android:id="@+id/fifteen_sachet_water" android:title="75 NAIRA PURE WATER(15)"/>
+        <item android:id="@+id/sixteen_sachet_water" android:title="80 NAIRA PURE WATER(16)"/>
+        <item android:id="@+id/seventeen_sachet_water" android:title="85 NAIRA PURE WATER(17)"/>
+        <item android:id="@+id/eighteen_sachet_water" android:title="90 NAIRA PURE WATER(18)"/>
+        <item android:id="@+id/nineteen_sachet_water" android:title="95 NAIRA PURE WATER(19)"/>
+        <item android:id="@+id/twenty_sachet_water" android:title="100 NAIRA PURE WATER(20)"/>
+    </group>
+
+    <group android:id="@+id/Pet_Water">
+        <item android:id="@+id/five_pet_water" android:title="250 NAIRA BOTTLE WATER(5)"/>
+        <item android:id="@+id/six_pet_water" android:title="300 NAIRA BOTTLE WATER(6)"/>
+        <item android:id="@+id/seven_pet_water" android:title="350 NAIRA BOTTLE WATER(7)"/>
+        <item android:id="@+id/eight_pet_water" android:title="400 NAIRA BOTTLE WATER(8)"/>
+        <item android:id="@+id/nine_pet_water" android:title="450 NAIRA BOTTLE WATER(9)"/>
+        <item android:id="@+id/ten_pet_water" android:title="500 NAIRA BOTTLE WATER(10)"/>
+        <item android:id="@+id/eleven_pet_water" android:title="550 NAIRA BOTTLE WATER(11)"/>
+        <item android:id="@+id/twelve_pet_water" android:title="600 NAIRA BOTTLE WATER(12)"/>
+        <item android:id="@+id/thirteen_pet_water" android:title="650 NAIRA BOTTLE WATER(13)"/>
+        <item android:id="@+id/fourteen_pet_water" android:title="700 NAIRA BOTTLE WATER(14)"/>
+        <item android:id="@+id/fifteen_pet_water" android:title="750 NAIRA BOTTLE WATER(15)"/>
+        <item android:id="@+id/sixteen_pet_water" android:title="800 NAIRA BOTTLE WATER(16)"/>
+        <item android:id="@+id/seventeen_pet_water" android:title="850 NAIRA BOTTLE WATER(17)"/>
+        <item android:id="@+id/eighteen_pet_water" android:title="900 NAIRA BOTTLE WATER(18)"/>
+        <item android:id="@+id/nineteen_pet_water" android:title="950 NAIRA BOTTLE WATER(19)"/>
+        <item android:id="@+id/twenty_pet_water" android:title="1000 NAIRA BOTTLE WATER(20)"/>
+    </group>
+
+    <group android:id="@+id/Can_MaltaGold">
+        <item android:id="@+id/five_can_maltagold" android:title="750 NAIRA C.MALTAGOLD(5)"/>
+        <item android:id="@+id/six_can_maltagold" android:title="900 NAIRA C.MALTAGOLD(6)"/>
+        <item android:id="@+id/seven_can_maltagold" android:title="1050 NAIRA C.MALTAGOLD(7)"/>
+        <item android:id="@+id/eight_can_maltagold" android:title="1200 NAIRA C.MALTAGOLD(8)"/>
+        <item android:id="@+id/nine_can_maltagold" android:title="1350 NAIRA C.MALTAGOLD(9)"/>
+        <item android:id="@+id/ten_can_maltagold" android:title="1500 NAIRA C.MALTAGOLD(10)"/>
+        <item android:id="@+id/eleven_can_maltagold" android:title="1650 NAIRA C.MALTAGOLD(11)"/>
+        <item android:id="@+id/twelve_can_maltagold" android:title="1800 NAIRA C.MALTAGOLD(12)"/>
+        <item android:id="@+id/thirteen_can_maltagold" android:title="1950 NAIRA C.MALTAGOLD(13)"/>
+        <item android:id="@+id/fourteen_can_maltagold" android:title="2100 NAIRA C.MALTAGOLD(14)"/>
+        <item android:id="@+id/fifteen_can_maltagold" android:title="2250 NAIRA C.MALTAGOLD(15)"/>
+        <item android:id="@+id/sixteen_can_maltagold" android:title="2400 NAIRA C.MALTAGOLD(16)"/>
+        <item android:id="@+id/seventeen_can_maltagold" android:title="2550 NAIRA C.MALTAGOLD(17)"/>
+        <item android:id="@+id/eighteen_can_maltagold" android:title="2700 NAIRA C.MALTAGOLD(18)"/>
+        <item android:id="@+id/nineteen_can_maltagold" android:title="2850 NAIRA C.MALTAGOLD(19)"/>
+        <item android:id="@+id/twenty_can_maltagold" android:title="3000 NAIRA C.MALTAGOLD(20)"/>
+    </group>
+
+    <group android:id="@+id/Can_Maltina">
+        <item android:id="@+id/five_can_maltina" android:title="750 NAIRA C.MALTINA(5)"/>
+        <item android:id="@+id/six_can_maltina" android:title="900 NAIRA C.MALTINA(6)"/>
+        <item android:id="@+id/seven_can_maltina" android:title="1050 NAIRA C.MALTINA(7)"/>
+        <item android:id="@+id/eight_can_maltina" android:title="1200 NAIRA C.MALTINA(8)"/>
+        <item android:id="@+id/nine_can_maltina" android:title="1350 NAIRA C.MALTINA(9)"/>
+        <item android:id="@+id/ten_can_maltina" android:title="1500 NAIRA C.MALTINA(10)"/>
+        <item android:id="@+id/eleven_can_maltina" android:title="1650 NAIRA C.MALTINA(11)"/>
+        <item android:id="@+id/twelve_can_maltina" android:title="1800 NAIRA C.MALTINA(12)"/>
+        <item android:id="@+id/thirteen_can_maltina" android:title="1950 NAIRA C.MALTINA(13)"/>
+        <item android:id="@+id/fourteen_can_maltina" android:title="2100 NAIRA C.MALTINA(14)"/>
+        <item android:id="@+id/fifteen_can_maltina" android:title="2250 NAIRA C.MALTINA(15)"/>
+        <item android:id="@+id/sixteen_can_maltina" android:title="2400 NAIRA C.MALTINA(16)"/>
+        <item android:id="@+id/seventeen_can_maltina" android:title="2550 NAIRA C.MALTINA(17)"/>
+        <item android:id="@+id/eighteen_can_maltina" android:title="2700 NAIRA C.MALTINA(18)"/>
+        <item android:id="@+id/nineteen_can_maltina" android:title="2850 NAIRA C.MALTINA(19)"/>
+        <item android:id="@+id/twenty_can_maltina" android:title="3000 NAIRA C.MALTINA(20)"/>
+    </group>
+
+    <group android:id="@+id/Can_Himalt">
+        <item android:id="@+id/five_can_himalt" android:title="750 NAIRA C.HIMALT(5)"/>
+        <item android:id="@+id/six_can_himalt" android:title="900 NAIRA C.HIMALT(6)"/>
+        <item android:id="@+id/seven_can_himalt" android:title="1050 NAIRA C.HIMALT(7)"/>
+        <item android:id="@+id/eight_can_himalt" android:title="1200 NAIRA C.HIMALT(8)"/>
+        <item android:id="@+id/nine_can_himalt" android:title="1350 NAIRA C.HIMALT(9)"/>
+        <item android:id="@+id/ten_can_himalt" android:title="1500 NAIRA C.HIMALT(10)"/>
+        <item android:id="@+id/eleven_can_himalt" android:title="1650 NAIRA C.HIMALT(11)"/>
+        <item android:id="@+id/twelve_can_himalt" android:title="1800 NAIRA C.HIMALT(12)"/>
+        <item android:id="@+id/thirteen_can_himalt" android:title="1950 NAIRA C.HIMALT(13)"/>
+        <item android:id="@+id/fourteen_can_himalt" android:title="2100 NAIRA C.HIMALT(14)"/>
+        <item android:id="@+id/fifteen_can_himalt" android:title="2250 NAIRA C.HIMALT(15)"/>
+        <item android:id="@+id/sixteen_can_himalt" android:title="2400 NAIRA C.HIMALT(16)"/>
+        <item android:id="@+id/seventeen_can_himalt" android:title="2550 NAIRA C.HIMALT(17)"/>
+        <item android:id="@+id/eighteen_can_himalt" android:title="2700 NAIRA C.HIMALT(18)"/>
+        <item android:id="@+id/nineteen_can_himalt" android:title="2850 NAIRA C.HIMALT(19)"/>
+        <item android:id="@+id/twenty_can_himalt" android:title="3000 NAIRA C.HIMALT(20)"/>
+    </group>
+
+    <group android:id="@+id/Can_MaltaGuinness">
+        <item android:id="@+id/five_can_maltaguinness" android:title="750 NAIRA C.MALTAGUINNESS(5)"/>
+        <item android:id="@+id/six_can_maltaguinness" android:title="900 NAIRA C.MALTAGUINNESS(6)"/>
+        <item android:id="@+id/seven_can_maltaguinness" android:title="1050 NAIRA C.MALTAGUINNESS(7)"/>
+        <item android:id="@+id/eight_can_maltaguinness" android:title="1200 NAIRA C.MALTAGUINNESS(8)"/>
+        <item android:id="@+id/nine_can_maltaguinness" android:title="1350 NAIRA C.MALTAGUINNESS(9)"/>
+        <item android:id="@+id/ten_can_maltaguinness" android:title="1500 NAIRA C.MALTAGUINNESS(10)"/>
+        <item android:id="@+id/eleven_can_maltaguinness" android:title="1650 NAIRA C.MALTAGUINNESS(11)"/>
+        <item android:id="@+id/twelve_can_maltaguinness" android:title="1800 NAIRA C.MALTAGUINNESS(12)"/>
+        <item android:id="@+id/thirteen_can_maltaguinness" android:title="1950 NAIRA C.MALTAGUINNESS(13)"/>
+        <item android:id="@+id/fourteen_can_maltaguinness" android:title="2100 NAIRA C.MALTAGUINNESS(14)"/>
+        <item android:id="@+id/fifteen_can_maltaguinness" android:title="2250 NAIRA C.MALTAGUINNESS(15)"/>
+        <item android:id="@+id/sixteen_can_maltaguinness" android:title="2400 NAIRA C.MALTAGUINNESS(16)"/>
+        <item android:id="@+id/seventeen_can_maltaguinness" android:title="2550 NAIRA C.MALTAGUINNESS(17)"/>
+        <item android:id="@+id/eighteen_can_maltaguinness" android:title="2700 NAIRA C.MALTAGUINNESS(18)"/>
+        <item android:id="@+id/nineteen_can_maltaguinness" android:title="2850 NAIRA C.MALTAGUINNESS(19)"/>
+        <item android:id="@+id/twenty_can_maltaguinness" android:title="3000 NAIRA C.MALTAGUINNESS(20)"/>
+    </group>
+
+    <group android:id="@+id/FiveAlive_Juice">
+        <item android:id="@+id/five_fivealive_juice" android:title="2500 NAIRA 5ALIVE JUICE(5)"/>
+        <item android:id="@+id/six_fivealive_juice" android:title="3000 NAIRA 5ALIVE JUICE(6)"/>
+        <item android:id="@+id/seven_fivealive_juice" android:title="3500 NAIRA 5ALIVE JUICE(7)"/>
+        <item android:id="@+id/eight_fivealive_juice" android:title="4000 NAIRA 5ALIVE JUICE(8)"/>
+        <item android:id="@+id/nine_fivealive_juice" android:title="4500 NAIRA 5ALIVE JUICE(9)"/>
+        <item android:id="@+id/ten_fivealive_juice" android:title="5000 NAIRA 5ALIVE JUICE(10)"/>
+        <item android:id="@+id/eleven_fivealive_juice" android:title="5500 NAIRA 5ALIVE JUICE(11)"/>
+        <item android:id="@+id/twelve_fivealive_juice" android:title="6000 NAIRA 5ALIVE JUICE(12)"/>
+        <item android:id="@+id/thirteen_fivealive_juice" android:title="6500 NAIRA 5ALIVE JUICE(13)"/>
+        <item android:id="@+id/fourteen_fivealive_juice" android:title="7000 NAIRA 5ALIVE JUICE(14)"/>
+        <item android:id="@+id/fifteen_fivealive_juice" android:title="7500 NAIRA 5ALIVE JUICE(15)"/>
+        <item android:id="@+id/sixteen_fivealive_juice" android:title="8000 NAIRA 5ALIVE JUICE(16)"/>
+        <item android:id="@+id/seventeen_fivealive_juice" android:title="8500 NAIRA 5ALIVE JUICE(17)"/>
+        <item android:id="@+id/eighteen_fivealive_juice" android:title="9000 NAIRA 5ALIVE JUICE(18)"/>
+        <item android:id="@+id/nineteen_fivealive_juice" android:title="9500 NAIRA 5ALIVE JUICE(19)"/>
+        <item android:id="@+id/twenty_fivealive_juice" android:title="10000 NAIRA 5ALIVE JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_Hollandia_Juice">
+        <item android:id="@+id/five_small_hollandia_juice" android:title="1500 NAIRA SMALL HOLLANDIA JUICE(5)"/>
+        <item android:id="@+id/six_small_hollandia_juice" android:title="1800 NAIRA SMALL HOLLANDIA JUICE(6)"/>
+        <item android:id="@+id/seven_small_hollandia_juice" android:title="2100 NAIRA SMALL HOLLANDIA JUICE(7)"/>
+        <item android:id="@+id/eight_small_hollandia_juice" android:title="2400 NAIRA SMALL HOLLANDIA JUICE(8)"/>
+        <item android:id="@+id/nine_small_hollandia_juice" android:title="2700 NAIRA SMALL HOLLANDIA JUICE(9)"/>
+        <item android:id="@+id/ten_small_hollandia_juice" android:title="3000 NAIRA SMALL HOLLANDIA JUICE(10)"/>
+        <item android:id="@+id/eleven_small_hollandia_juice" android:title="3300 NAIRA SMALL HOLLANDIA JUICE(11)"/>
+        <item android:id="@+id/twelve_small_hollandia_juice" android:title="3600 NAIRA SMALL HOLLANDIA JUICE(12)"/>
+        <item android:id="@+id/thirteen_small_hollandia_juice" android:title="3900 NAIRA SMALL HOLLANDIA JUICE(13)"/>
+        <item android:id="@+id/fourteen_small_hollandia_juice" android:title="4200 NAIRA SMALL HOLLANDIA JUICE(14)"/>
+        <item android:id="@+id/fifteen_small_hollandia_juice" android:title="4500 NAIRA SMALL HOLLANDIA JUICE(15)"/>
+        <item android:id="@+id/sixteen_small_hollandia_juice" android:title="4800 NAIRA SMALL HOLLANDIA JUICE(16)"/>
+        <item android:id="@+id/seventeen_small_hollandia_juice" android:title="5100 NAIRA SMALL HOLLANDIA JUICE(17)"/>
+        <item android:id="@+id/eighteen_small_hollandia_juice" android:title="5400 NAIRA SMALL HOLLANDIA JUICE(18)"/>
+        <item android:id="@+id/nineteen_small_hollandia_juice" android:title="5700 NAIRA SMALL HOLLANDIA JUICE(19)"/>
+        <item android:id="@+id/twenty_small_hollandia_juice" android:title="6000 NAIRA SMALL HOLLANDIA JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_Hollandia_Juice">
+        <item android:id="@+id/five_big_hollandia_juice" android:title="2500 NAIRA BIG HOLLANDIA JUICE(5)"/>
+        <item android:id="@+id/six_big_hollandia_juice" android:title="3000 NAIRA BIG HOLLANDIA JUICE(6)"/>
+        <item android:id="@+id/seven_big_hollandia_juice" android:title="3500 NAIRA BIG HOLLANDIA JUICE(7)"/>
+        <item android:id="@+id/eight_big_hollandia_juice" android:title="4000 NAIRA BIG HOLLANDIA JUICE(8)"/>
+        <item android:id="@+id/nine_big_hollandia_juice" android:title="4500 NAIRA BIG HOLLANDIA JUICE(9)"/>
+        <item android:id="@+id/ten_big_hollandia_juice" android:title="5000 NAIRA BIG HOLLANDIA JUICE(10)"/>
+        <item android:id="@+id/eleven_big_hollandia_juice" android:title="5500 NAIRA BIG HOLLANDIA JUICE(11)"/>
+        <item android:id="@+id/twelve_big_hollandia_juice" android:title="6000 NAIRA BIG HOLLANDIA JUICE(12)"/>
+        <item android:id="@+id/thirteen_big_hollandia_juice" android:title="6500 NAIRA BIG HOLLANDIA JUICE(13)"/>
+        <item android:id="@+id/fourteen_big_hollandia_juice" android:title="7000 NAIRA BIG HOLLANDIA JUICE(14)"/>
+        <item android:id="@+id/fifteen_big_hollandia_juice" android:title="7500 NAIRA BIG HOLLANDIA JUICE(15)"/>
+        <item android:id="@+id/sixteen_big_hollandia_juice" android:title="8000 NAIRA BIG HOLLANDIA JUICE(16)"/>
+        <item android:id="@+id/seventeen_big_hollandia_juice" android:title="8500 NAIRA BIG HOLLANDIA JUICE(17)"/>
+        <item android:id="@+id/eighteen_big_hollandia_juice" android:title="9000 NAIRA BIG HOLLANDIA JUICE(18)"/>
+        <item android:id="@+id/nineteen_big_hollandia_juice" android:title="9500 NAIRA BIG HOLLANDIA JUICE(19)"/>
+        <item android:id="@+id/twenty_big_hollandia_juice" android:title="10000 NAIRA BIG HOLLANDIA JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_ChiExotic_Juice">
+        <item android:id="@+id/five_small_chiexotic_juice" android:title="1500 NAIRA SMALL CHIEXOTIC JUICE(5)"/>
+        <item android:id="@+id/six_small_chiexotic_juice" android:title="1800 NAIRA SMALL CHIEXOTIC JUICE(6)"/>
+        <item android:id="@+id/seven_small_chiexotic_juice" android:title="2100 NAIRA SMALL CHIEXOTIC JUICE(7)"/>
+        <item android:id="@+id/eight_small_chiexotic_juice" android:title="2400 NAIRA SMALL CHIEXOTIC JUICE(8)"/>
+        <item android:id="@+id/nine_small_chiexotic_juice" android:title="2700 NAIRA SMALL CHIEXOTIC JUICE(9)"/>
+        <item android:id="@+id/ten_small_chiexotic_juice" android:title="3000 NAIRA SMALL CHIEXOTIC JUICE(10)"/>
+        <item android:id="@+id/eleven_small_chiexotic_juice" android:title="3300 NAIRA SMALL CHIEXOTIC JUICE(11)"/>
+        <item android:id="@+id/twelve_small_chiexotic_juice" android:title="3600 NAIRA SMALL CHIEXOTIC JUICE(12)"/>
+        <item android:id="@+id/thirteen_small_chiexotic_juice" android:title="3900 NAIRA SMALL CHIEXOTIC JUICE(13)"/>
+        <item android:id="@+id/fourteen_small_chiexotic_juice" android:title="4200 NAIRA SMALL CHIEXOTIC JUICE(14)"/>
+        <item android:id="@+id/fifteen_small_chiexotic_juice" android:title="4500 NAIRA SMALL CHIEXOTIC JUICE(15)"/>
+        <item android:id="@+id/sixteen_small_chiexotic_juice" android:title="4800 NAIRA SMALL CHIEXOTIC JUICE(16)"/>
+        <item android:id="@+id/seventeen_small_chiexotic_juice" android:title="5100 NAIRA SMALL CHIEXOTIC JUICE(17)"/>
+        <item android:id="@+id/eighteen_small_chiexotic_juice" android:title="5400 NAIRA SMALL CHIEXOTIC JUICE(18)"/>
+        <item android:id="@+id/nineteen_small_chiexotic_juice" android:title="5700 NAIRA SMALL CHIEXOTIC JUICE(19)"/>
+        <item android:id="@+id/twenty_small_chiexotic_juice" android:title="6000 NAIRA SMALL CHIEXOTIC JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_ChiExotic_Juice">
+        <item android:id="@+id/five_big_chiexotic_juice" android:title="2500 NAIRA BIG CHIEXOTIC JUICE(5)"/>
+        <item android:id="@+id/six_big_chiexotic_juice" android:title="3000 NAIRA BIG CHIEXOTIC JUICE(6)"/>
+        <item android:id="@+id/seven_big_chiexotic_juice" android:title="3500 NAIRA BIG CHIEXOTIC JUICE(7)"/>
+        <item android:id="@+id/eight_big_chiexotic_juice" android:title="4000 NAIRA BIG CHIEXOTIC JUICE(8)"/>
+        <item android:id="@+id/nine_big_chiexotic_juice" android:title="4500 NAIRA BIG CHIEXOTIC JUICE(9)"/>
+        <item android:id="@+id/ten_big_chiexotic_juice" android:title="5000 NAIRA BIG CHIEXOTIC JUICE(10)"/>
+        <item android:id="@+id/eleven_big_chiexotic_juice" android:title="5500 NAIRA BIG CHIEXOTIC JUICE(11)"/>
+        <item android:id="@+id/twelve_big_chiexotic_juice" android:title="6000 NAIRA BIG CHIEXOTIC JUICE(12)"/>
+        <item android:id="@+id/thirteen_big_chiexotic_juice" android:title="6500 NAIRA BIG CHIEXOTIC JUICE(13)"/>
+        <item android:id="@+id/fourteen_big_chiexotic_juice" android:title="7000 NAIRA BIG CHIEXOTIC JUICE(14)"/>
+        <item android:id="@+id/fifteen_big_chiexotic_juice" android:title="7500 NAIRA BIG CHIEXOTIC JUICE(15)"/>
+        <item android:id="@+id/sixteen_big_chiexotic_juice" android:title="8000 NAIRA BIG CHIEXOTIC JUICE(16)"/>
+        <item android:id="@+id/seventeen_big_chiexotic_juice" android:title="8500 NAIRA BIG CHIEXOTIC JUICE(17)"/>
+        <item android:id="@+id/eighteen_big_chiexotic_juice" android:title="9000 NAIRA BIG CHIEXOTIC JUICE(18)"/>
+        <item android:id="@+id/nineteen_big_chiexotic_juice" android:title="9500 NAIRA BIG CHIEXOTIC JUICE(19)"/>
+        <item android:id="@+id/twenty_big_chiexotic_juice" android:title="10000 NAIRA BIG CHIEXOTIC JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_Chivita_Juice">
+        <item android:id="@+id/five_small_chivita_juice" android:title="1500 NAIRA SMALL CHIVITA JUICE(5)"/>
+        <item android:id="@+id/six_small_chivita_juice" android:title="1800 NAIRA SMALL CHIVITA JUICE(6)"/>
+        <item android:id="@+id/seven_small_chivita_juice" android:title="2100 NAIRA SMALL CHIVITA JUICE(7)"/>
+        <item android:id="@+id/eight_small_chivita_juice" android:title="2400 NAIRA SMALL CHIVITA JUICE(8)"/>
+        <item android:id="@+id/nine_small_chivita_juice" android:title="2700 NAIRA SMALL CHIVITA JUICE(9)"/>
+        <item android:id="@+id/ten_small_chivita_juice" android:title="3000 NAIRA SMALL CHIVITA JUICE(10)"/>
+        <item android:id="@+id/eleven_small_chivita_juice" android:title="3300 NAIRA SMALL CHIVITA JUICE(11)"/>
+        <item android:id="@+id/twelve_small_chivita_juice" android:title="3600 NAIRA SMALL CHIVITA JUICE(12)"/>
+        <item android:id="@+id/thirteen_small_chivita_juice" android:title="3900 NAIRA SMALL CHIVITA JUICE(13)"/>
+        <item android:id="@+id/fourteen_small_chivita_juice" android:title="4200 NAIRA SMALL CHIVITA JUICE(14)"/>
+        <item android:id="@+id/fifteen_small_chivita_juice" android:title="4500 NAIRA SMALL CHIVITA JUICE(15)"/>
+        <item android:id="@+id/sixteen_small_chivita_juice" android:title="4800 NAIRA SMALL CHIVITA JUICE(16)"/>
+        <item android:id="@+id/seventeen_small_chivita_juice" android:title="5100 NAIRA SMALL CHIVITA JUICE(17)"/>
+        <item android:id="@+id/eighteen_small_chivita_juice" android:title="5400 NAIRA SMALL CHIVITA JUICE(18)"/>
+        <item android:id="@+id/nineteen_small_chivita_juice" android:title="5700 NAIRA SMALL CHIVITA JUICE(19)"/>
+        <item android:id="@+id/twenty_small_chivita_juice" android:title="6000 NAIRA SMALL CHIVITA JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_Chivita_Juice">
+        <item android:id="@+id/five_big_chivita_juice" android:title="2500 NAIRA BIG CHIVITA JUICE(5)"/>
+        <item android:id="@+id/six_big_chivita_juice" android:title="3000 NAIRA BIG CHIVITA JUICE(6)"/>
+        <item android:id="@+id/seven_big_chivita_juice" android:title="3500 NAIRA BIG CHIVITA JUICE(7)"/>
+        <item android:id="@+id/eight_big_chivita_juice" android:title="4000 NAIRA BIG CHIVITA JUICE(8)"/>
+        <item android:id="@+id/nine_big_chivita_juice" android:title="4500 NAIRA BIG CHIVITA JUICE(9)"/>
+        <item android:id="@+id/ten_big_chivita_juice" android:title="5000 NAIRA BIG CHIVITA JUICE(10)"/>
+        <item android:id="@+id/eleven_big_chivita_juice" android:title="5500 NAIRA BIG CHIVITA JUICE(11)"/>
+        <item android:id="@+id/twelve_big_chivita_juice" android:title="6000 NAIRA BIG CHIVITA JUICE(12)"/>
+        <item android:id="@+id/thirteen_big_chivita_juice" android:title="6500 NAIRA BIG CHIVITA JUICE(13)"/>
+        <item android:id="@+id/fourteen_big_chivita_juice" android:title="7000 NAIRA BIG CHIVITA JUICE(14)"/>
+        <item android:id="@+id/fifteen_big_chivita_juice" android:title="7500 NAIRA BIG CHIVITA JUICE(15)"/>
+        <item android:id="@+id/sixteen_big_chivita_juice" android:title="8000 NAIRA BIG CHIVITA JUICE(16)"/>
+        <item android:id="@+id/seventeen_big_chivita_juice" android:title="8500 NAIRA BIG CHIVITA JUICE(17)"/>
+        <item android:id="@+id/eighteen_big_chivita_juice" android:title="9000 NAIRA BIG CHIVITA JUICE(18)"/>
+        <item android:id="@+id/nineteen_big_chivita_juice" android:title="9500 NAIRA BIG CHIVITA JUICE(19)"/>
+        <item android:id="@+id/twenty_big_chivita_juice" android:title="10000 NAIRA BIG CHIVITA JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Small_HappyHour_Juice">
+        <item android:id="@+id/five_small_happyhour_juice" android:title="1500 NAIRA SMALL HAPPYHOUR JUICE(5)"/>
+        <item android:id="@+id/six_small_happyhour_juice" android:title="1800 NAIRA SMALL HAPPYHOUR JUICE(6)"/>
+        <item android:id="@+id/seven_small_happyhour_juice" android:title="2100 NAIRA SMALL HAPPYHOUR JUICE(7)"/>
+        <item android:id="@+id/eight_small_happyhour_juice" android:title="2400 NAIRA SMALL HAPPYHOUR JUICE(8)"/>
+        <item android:id="@+id/nine_small_happyhour_juice" android:title="2700 NAIRA SMALL HAPPYHOUR JUICE(9)"/>
+        <item android:id="@+id/ten_small_happyhour_juice" android:title="3000 NAIRA SMALL HAPPYHOUR JUICE(10)"/>
+        <item android:id="@+id/eleven_small_happyhour_juice" android:title="3300 NAIRA SMALL HAPPYHOUR JUICE(11)"/>
+        <item android:id="@+id/twelve_small_happyhour_juice" android:title="3600 NAIRA SMALL HAPPYHOUR JUICE(12)"/>
+        <item android:id="@+id/thirteen_small_happyhour_juice" android:title="3900 NAIRA SMALL HAPPYHOUR JUICE(13)"/>
+        <item android:id="@+id/fourteen_small_happyhour_juice" android:title="4200 NAIRA SMALL HAPPYHOUR JUICE(14)"/>
+        <item android:id="@+id/fifteen_small_happyhour_juice" android:title="4500 NAIRA SMALL HAPPYHOUR JUICE(15)"/>
+        <item android:id="@+id/sixteen_small_happyhour_juice" android:title="4800 NAIRA SMALL HAPPYHOUR JUICE(16)"/>
+        <item android:id="@+id/seventeen_small_happyhour_juice" android:title="5100 NAIRA SMALL HAPPYHOUR JUICE(17)"/>
+        <item android:id="@+id/eighteen_small_happyhour_juice" android:title="5400 NAIRA SMALL HAPPYHOUR JUICE(18)"/>
+        <item android:id="@+id/nineteen_small_happyhour_juice" android:title="5700 NAIRA SMALL HAPPYHOUR JUICE(19)"/>
+        <item android:id="@+id/twenty_small_happyhour_juice" android:title="6000 NAIRA SMALL HAPPYHOUR JUICE(20)"/>
+    </group>
+
+    <group android:id="@+id/Big_HappyHour_Juice">
+        <item android:id="@+id/five_big_happyhour_juice" android:title="2500 NAIRA BIG HAPPYHOUR JUICE(5)"/>
+        <item android:id="@+id/six_big_happyhour_juice" android:title="3000 NAIRA BIG HAPPYHOUR JUICE(6)"/>
+        <item android:id="@+id/seven_big_happyhour_juice" android:title="3500 NAIRA BIG HAPPYHOUR JUICE(7)"/>
+        <item android:id="@+id/eight_big_happyhour_juice" android:title="4000 NAIRA BIG HAPPYHOUR JUICE(8)"/>
+        <item android:id="@+id/nine_big_happyhour_juice" android:title="4500 NAIRA BIG HAPPYHOUR JUICE(9)"/>
+        <item android:id="@+id/ten_big_happyhour_juice" android:title="5000 NAIRA BIG HAPPYHOUR JUICE(10)"/>
+        <item android:id="@+id/eleven_big_happyhour_juice" android:title="5500 NAIRA BIG HAPPYHOUR JUICE(11)"/>
+        <item android:id="@+id/twelve_big_happyhour_juice" android:title="6000 NAIRA BIG HAPPYHOUR JUICE(12)"/>
+        <item android:id="@+id/thirteen_big_happyhour_juice" android:title="6500 NAIRA BIG HAPPYHOUR JUICE(13)"/>
+        <item android:id="@+id/fourteen_big_happyhour_juice" android:title="7000 NAIRA BIG HAPPYHOUR JUICE(14)"/>
+        <item android:id="@+id/fifteen_big_happyhour_juice" android:title="7500 NAIRA BIG HAPPYHOUR JUICE(15)"/>
+        <item android:id="@+id/sixteen_big_happyhour_juice" android:title="8000 NAIRA BIG HAPPYHOUR JUICE(16)"/>
+        <item android:id="@+id/seventeen_big_happyhour_juice" android:title="8500 NAIRA BIG HAPPYHOUR JUICE(17)"/>
+        <item android:id="@+id/eighteen_big_happyhour_juice" android:title="9000 NAIRA BIG HAPPYHOUR JUICE(18)"/>
+        <item android:id="@+id/nineteen_big_happyhour_juice" android:title="9500 NAIRA BIG HAPPYHOUR JUICE(19)"/>
+        <item android:id="@+id/twenty_big_happyhour_juice" android:title="10000 NAIRA BIG HAPPYHOUR JUICE(20)"/>
+    </group>
+
+ <group android:id="@+id/Small_Glass_Schweppes">
+        <item android:id="@+id/five_small_glass_schweppes" android:title="400 NAIRA SMALL G.SCHWEPPES(5)"/>
+        <item android:id="@+id/six_small_glass_schweppes" android:title="480 NAIRA SMALL G.SCHWEPPES(6)"/>
+        <item android:id="@+id/seven_small_glass_schweppes" android:title="560 NAIRA SMALL G.SCHWEPPES(7)"/>
+        <item android:id="@+id/eight_small_glass_schweppes" android:title="640 NAIRA SMALL G.SCHWEPPES(8)"/>
+        <item android:id="@+id/nine_small_glass_schweppes" android:title="720 NAIRA SMALL G.SCHWEPPES(9)"/>
+        <item android:id="@+id/ten_small_glass_schweppes" android:title="800 NAIRA SMALL G.SCHWEPPES(10)"/>
+        <item android:id="@+id/eleven_small_glass_schweppes" android:title="880 NAIRA SMALL G.SCHWEPPES(11)"/>
+        <item android:id="@+id/twelve_small_glass_schweppes" android:title="960 NAIRA SMALL G.SCHWEPPES(12)"/>
+        <item android:id="@+id/thirteen_small_glass_schweppes" android:title="1040 NAIRA SMALL G.SCHWEPPES(13)"/>
+        <item android:id="@+id/fourteen_small_glass_schweppes" android:title="1120 NAIRA SMALL G.SCHWEPPES(14)"/>
+        <item android:id="@+id/fifteen_small_glass_schweppes" android:title="1200 NAIRA SMALL G.SCHWEPPES(15)"/>
+        <item android:id="@+id/sixteen_small_glass_schweppes" android:title="1280 NAIRA SMALL G.SCHWEPPES(16)"/>
+        <item android:id="@+id/seventeen_small_glass_schweppes" android:title="1360 NAIRA SMALL G.SCHWEPPES(17)"/>
+        <item android:id="@+id/eighteen_small_glass_schweppes" android:title="1440 NAIRA SMALL G.SCHWEPPES(18)"/>
+        <item android:id="@+id/nineteen_small_glass_schweppes" android:title="1520 NAIRA SMALL G.SCHWEPPES(19)"/>
+        <item android:id="@+id/twenty_small_glass_schweppes" android:title="1600 NAIRA SMALL G.SCHWEPPES(20)"/>
+    </group>
+
+ <group android:id="@+id/Big_Glass_Schweppes">
+        <item android:id="@+id/five_big_glass_schweppes" android:title="500 NAIRA C.MIRINDA(5)"/>
+        <item android:id="@+id/six_big_glass_schweppes" android:title="600 NAIRA C.MIRINDA(6)"/>
+        <item android:id="@+id/seven_big_glass_schweppes" android:title="700 NAIRA C.MIRINDA(7)"/>
+        <item android:id="@+id/eight_big_glass_schweppes" android:title="800 NAIRA C.MIRINDA(8)"/>
+        <item android:id="@+id/nine_big_glass_schweppes" android:title="900 NAIRA C.MIRINDA(9)"/>
+        <item android:id="@+id/ten_big_glass_schweppes" android:title="1000 NAIRA C.MIRINDA(10)"/>
+        <item android:id="@+id/eleven_big_glass_schweppes" android:title="1100 NAIRA C.MIRINDA(11)"/>
+        <item android:id="@+id/twelve_big_glass_schweppes" android:title="1200 NAIRA C.MIRINDA(12)"/>
+        <item android:id="@+id/thirteen_big_glass_schweppes" android:title="1300 NAIRA C.MIRINDA(13)"/>
+        <item android:id="@+id/fourteen_big_glass_schweppes" android:title="1400 NAIRA C.MIRINDA(14)"/>
+        <item android:id="@+id/fifteen_big_glass_schweppes" android:title="1500 NAIRA C.MIRINDA(15)"/>
+        <item android:id="@+id/sixteen_big_glass_schweppes" android:title="1600 NAIRA C.MIRINDA(16)"/>
+        <item android:id="@+id/seventeen_big_glass_schweppes" android:title="1700 NAIRA C.MIRINDA(17)"/>
+        <item android:id="@+id/eighteen_big_glass_schweppes" android:title="1800 NAIRA C.MIRINDA(18)"/>
+        <item android:id="@+id/nineteen_big_glass_schweppes" android:title="1900 NAIRA C.MIRINDA(19)"/>
+        <item android:id="@+id/twenty_big_glass_schweppes" android:title="2000 NAIRA C.MIRINDA(20)"/>
+    </group>
+
+
+
+</menu>

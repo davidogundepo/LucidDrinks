@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DrinksActivityArchive.DrinksmenuActivity">
+
+    <group>
+        <item
+            android:id="@+id/check_balance"
+            app:showAsAction="never"
+            android:onClick="checkMyBalance"
+            android:title="@string/check_balance_drinkmenuActivity_Toolbar" />
+
+        <item
+            android:id="@+id/log_out"
+            app:showAsAction="never"
+            android:onClick="AlrightImOff"
+            android:title="@string/lost_interest_at_this_point" />
+    </group>
+    
+</menu>
