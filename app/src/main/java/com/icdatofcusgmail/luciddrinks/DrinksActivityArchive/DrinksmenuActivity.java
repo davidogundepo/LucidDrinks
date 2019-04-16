@@ -33,6 +33,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -1196,7 +1197,11 @@ public class DrinksmenuActivity extends AppCompatActivity  implements MidFielder
                         }
                     };
                     MyCountlesston.getmInstance(DrinksmenuActivity.this).addToRequestQueue(LandMarkUniversity);
-
+                    LandMarkUniversity.setRetryPolicy(new DefaultRetryPolicy(
+                            DefaultRetryPolicy.DEFAULT_TIMEOUT_MS,
+                            0, // maxNumRetries =0 means no retry
+                            DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+                    ));
 
 
                     startActivity(intent);
@@ -1218,7 +1223,6 @@ public class DrinksmenuActivity extends AppCompatActivity  implements MidFielder
                     Bundle tobi = new Bundle();
                     tobi.putString("genius", textView2nd.getText().toString());
                     intent.putExtras(tobi);
-
                     Bundle emmanuel = new Bundle();
                     emmanuel.putString("generous", textView3rd.getText().toString());
                     intent.putExtras(emmanuel);
