@@ -34,8 +34,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     implementation files("libs/json-simple-1.1.1.jar")
+    implementation files("libs/easyandroidanimationslibrary-v0.5.jar")
 
-    implementation 'com.github.2359media:EasyAndroidAnimations:0.8'
+    //implementation 'com.github.2359media:EasyAndroidAnimations:0.8'
     implementation 'com.android.support:appcompat-v7:26.1.0'
     //  implementation 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
     implementation 'com.antonionicolaspina:revealtextview:2.0'
